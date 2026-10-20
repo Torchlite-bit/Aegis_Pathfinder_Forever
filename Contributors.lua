@@ -5,4 +5,5 @@ local _, AP = ...
 -- again each time data comes in (docs/data-submission.md).
 AP.CONTRIBUTORS = {
 	"Genesys Firstborn",
+	"Skep",
 }
