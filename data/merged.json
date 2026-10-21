@@ -1,21 +1,28 @@
 {
  "builds": {
   "1.60.1.70338": true,
-  "1.60.1.70374": true
+  "1.60.1.70374": true,
+  "1.60.1.70425": true,
+  "1.60.1.70450": true
  },
  "created": 1791898946,
  "levels": {
   "1": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70338": true,
+    "1.60.1.70374": true,
+    "1.60.1.70450": true
    },
    "by": {
-    "Human:WARLOCK:Alliance": 1
+    "Human:HUNTER:Alliance": 1,
+    "Human:ROGUE:Alliance": 5,
+    "Human:WARLOCK:Alliance": 1,
+    "Orc:WARRIOR:Horde": 14
    },
    "first": 1791919698,
-   "last": 1791919698,
+   "last": 1792442075,
    "xpMax": {
-    "count": 1,
+    "count": 21,
     "last": 400,
     "max": 400,
     "min": 400
@@ -23,21 +30,23 @@
   },
   "2": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70338": true,
+    "1.60.1.70374": true
    },
    "by": {
+    "Human:ROGUE:Alliance": 7,
     "Human:WARLOCK:Alliance": 1
    },
    "first": 1791919962,
-   "last": 1791919962,
+   "last": 1792017203,
    "seconds": {
-    "count": 1,
-    "last": 445,
-    "max": 445,
+    "count": 2,
+    "last": 1089,
+    "max": 1089,
     "min": 445
    },
    "xpMax": {
-    "count": 1,
+    "count": 8,
     "last": 900,
     "max": 900,
     "min": 900
@@ -45,29 +54,88 @@
   },
   "26": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70338": true,
+    "1.60.1.70374": true
    },
    "by": {
-    "Human:PALADIN:Alliance": 9
+    "Human:PALADIN:Alliance": 10
    },
    "first": 1791899126,
-   "last": 1791903082,
+   "last": 1792010629,
    "xpMax": {
-    "count": 9,
+    "count": 10,
     "last": 36400,
     "max": 36400,
     "min": 36400
    }
   },
-  "3": {
+  "27": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70374": true,
+    "1.60.1.70425": true
    },
    "by": {
+    "Human:PALADIN:Alliance": 37
+   },
+   "first": 1792013709,
+   "last": 1792173061,
+   "seconds": {
+    "count": 1,
+    "last": 22307,
+    "max": 22307,
+    "min": 22307
+   },
+   "xpMax": {
+    "count": 37,
+    "last": 38900,
+    "max": 38900,
+    "min": 38900
+   }
+  },
+  "28": {
+   "builds": {
+    "1.60.1.70425": true,
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 51
+   },
+   "first": 1792174513,
+   "last": 1792442313,
+   "xpMax": {
+    "count": 51,
+    "last": 41400,
+    "max": 41400,
+    "min": 41400
+   }
+  },
+  "29": {
+   "builds": {
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 1
+   },
+   "first": 1792501797,
+   "last": 1792501797,
+   "xpMax": {
+    "count": 1,
+    "last": 44300,
+    "max": 44300,
+    "min": 44300
+   }
+  },
+  "3": {
+   "builds": {
+    "1.60.1.70338": true,
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:ROGUE:Alliance": 1,
     "Human:WARLOCK:Alliance": 1
    },
    "first": 1791920407,
-   "last": 1791920407,
+   "last": 1792017341,
    "seconds": {
     "count": 1,
     "last": 742,
@@ -75,7 +143,7 @@
     "min": 742
    },
    "xpMax": {
-    "count": 1,
+    "count": 2,
     "last": 1400,
     "max": 1400,
     "min": 1400
@@ -131,12 +199,12 @@
     "1.60.1.70374": true
    },
    "by": {
-    "Human:WARLOCK:Alliance": 5
+    "Human:WARLOCK:Alliance": 6
    },
    "first": 1791953958,
-   "last": 1791954949,
+   "last": 1791955183,
    "xpMax": {
-    "count": 5,
+    "count": 6,
     "last": 3600,
     "max": 3600,
     "min": 3600
@@ -144,15 +212,136 @@
   }
  },
  "observers": {
-  "Human:PALADIN:Alliance": 9,
-  "Human:WARLOCK:Alliance": 22
+  "Human:HUNTER:Alliance": 1,
+  "Human:PALADIN:Alliance": 97,
+  "Human:ROGUE:Alliance": 11,
+  "Human:WARLOCK:Alliance": 22,
+  "Orc:WARRIOR:Horde": 14
  },
  "quests": {
-  "15": {
+  "1050": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70450": true
    },
    "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "The future is inevitable! We hurl ourselves towards it like falling raindrops to the Great Sea.\n\nBut perhaps, by studying the past, we can know what to expect and be better prepared for the unknown.\n\nBefore dire troubles fell upon Lordaeron, there was a bastion of knowledge tucked away in the Tirisfal Glades. It is rumored that a book called Mythology of the Titans was housed in the library of the old Monastery.\n\nBring it to me and perhaps together we can unlock the secrets of the past!",
+   "first": 1792339583,
+   "frequency": 0,
+   "last": 1792339595,
+   "level": 38,
+   "objectiveText": "Retrieve Mythology of the Titans from the Monastery and bring it to Librarian Mae Paledust in Ironforge.",
+   "objectives": [
+    {
+     "required": 1,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:3979@1455": {
+     "count": 1,
+     "id": 3979,
+     "kind": "npc",
+     "mapID": 1455,
+     "name": "Librarian Mae Paledust",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "The Library",
+     "x": 0.7463,
+     "xMax": 0.7463,
+     "xMin": 0.7463,
+     "xyCount": 1,
+     "y": 0.1231,
+     "yMax": 0.1231,
+     "yMin": 0.1231,
+     "zone": "Ironforge"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:48:20": 7
+    }
+   },
+   "rewards": {
+    "xpOffered": {
+     "28": 8900
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "tag": "Dungeon",
+   "tagID": 81,
+   "title": "Mythology of the Titans"
+  },
+  "1274": {
+   "builds": {
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "Excuse me, sir. Bishop DeLavey asked me to approach adventurers that might be able to help him with a delicate matter.\n\nIf you could quietly head to Stormwind Keep and speak to him at your earliest convenience, I'm sure he would appreciate your help. Again, please be discreet. It is a matter of some importance.",
+   "first": 1792294989,
+   "frequency": 0,
+   "last": 1792294989,
+   "level": 28,
+   "objectiveText": "Find Bishop DeLavey in Stormwind Keep.",
+   "pickups": {
+    "npc:4982@1453": {
+     "count": 1,
+     "id": 4982,
+     "kind": "npc",
+     "mapID": 1453,
+     "name": "Thomas",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Cathedral of Light",
+     "x": 0.5118,
+     "xMax": 0.5118,
+     "xMin": 0.5118,
+     "xyCount": 1,
+     "y": 0.4786,
+     "yMax": 0.4786,
+     "yMin": 0.4786,
+     "zone": "Stormwind City"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1415:45:68": 9,
+     "1429:35:25": 23,
+     "1453:80:44": 13
+    }
+   },
+   "rewards": {
+    "xpOffered": {
+     "28": 230
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "The Missing Diplomat"
+  },
+  "15": {
+   "builds": {
+    "1.60.1.70338": true,
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:ROGUE:Alliance": 2,
     "Human:WARLOCK:Alliance": 3
    },
    "chain": {
@@ -167,7 +356,7 @@
    "description": "<name>, my scouts tell me that the kobold infestation is larger than we had thought.  A group of kobold workers has camped near the Echo Ridge Mine to the north.\n\nGo to the mine and remove them.  We know there are at least 10.  Kill them, see if there are more, then report back to me.",
    "first": 1791920440,
    "frequency": 0,
-   "last": 1791921667,
+   "last": 1792017405,
    "level": 3,
    "objectiveText": "Kill 10 Kobold Workers, then report back to Marshal McBride.",
    "objectives": [
@@ -179,13 +368,13 @@
    ],
    "pickups": {
     "npc:197@1429": {
-     "count": 1,
+     "count": 2,
      "id": 197,
      "kind": "npc",
      "mapID": 1429,
      "name": "Marshal McBride",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 3,
       "max": 3,
       "min": 3
@@ -194,16 +383,16 @@
      "x": 0.4884,
      "xMax": 0.4884,
      "xMin": 0.4884,
-     "xyCount": 1,
-     "y": 0.4166,
-     "yMax": 0.4166,
+     "xyCount": 2,
+     "y": 0.4167,
+     "yMax": 0.4168,
      "yMin": 0.4166,
      "zone": "Elwynn Forest"
     }
    },
    "poi": {
     "objective": {
-     "1429:49:35": 47
+     "1429:49:35": 57
     },
     "turnin": {
      "1429:49:42": 5
@@ -259,8 +448,8 @@
     }
    },
    "seen": {
-    "accepted": 1,
-    "offered": 1,
+    "accepted": 2,
+    "offered": 2,
     "turnedIn": 1
    },
    "title": "Investigate Echo Ridge",
@@ -420,9 +609,11 @@
   },
   "18": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70338": true,
+    "1.60.1.70374": true
    },
    "by": {
+    "Human:ROGUE:Alliance": 2,
     "Human:WARLOCK:Alliance": 3
    },
    "chain": {
@@ -435,7 +626,7 @@
    "description": "Recently, a new group of thieves has been hanging around Northshire.  They call themselves the Defias Brotherhood, and have been seen across the river to the east.\n\nI don't know what they're up to, but I'm sure it's not good!  Bring me the bandanas they wear, and I'll reward you with a weapon.",
    "first": 1791920466,
    "frequency": 0,
-   "last": 1791921282,
+   "last": 1792017505,
    "level": 4,
    "objectiveText": "Bring 12 Red Burlap Bandanas to Deputy Willem outside the Northshire Abbey.",
    "objectives": [
@@ -446,31 +637,31 @@
    ],
    "pickups": {
     "npc:823@1429": {
-     "count": 1,
+     "count": 2,
      "id": 823,
      "kind": "npc",
      "mapID": 1429,
      "name": "Deputy Willem",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 3,
       "max": 3,
       "min": 3
      },
      "subzone": "Northshire Valley",
-     "x": 0.482,
+     "x": 0.4817,
      "xMax": 0.482,
-     "xMin": 0.482,
-     "xyCount": 1,
-     "y": 0.4281,
-     "yMax": 0.4281,
+     "xMin": 0.4814,
+     "xyCount": 2,
+     "y": 0.4287,
+     "yMax": 0.4293,
      "yMin": 0.4281,
      "zone": "Elwynn Forest"
     }
    },
    "poi": {
     "objective": {
-     "1429:54:48": 23
+     "1429:54:48": 25
     },
     "turnin": {
      "1429:48:43": 3
@@ -550,8 +741,8 @@
     }
    },
    "seen": {
-    "accepted": 1,
-    "offered": 1,
+    "accepted": 2,
+    "offered": 2,
     "turnedIn": 1
    },
    "title": "Brotherhood of Thieves",
@@ -843,8 +1034,830 @@
     }
    }
   },
-  "288": {
+  "2745": {
+   "builds": {
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "chain": {
+    "prev": {
+     "350": true
+    }
+   },
+   "description": "Hmm, an interesting tale, and not one to be taken lightly. Yeah, I can help you, but what you need to do is divvy out a form of justice that's not... legal, if you're to see this through to the end.\n\nLescovar and Marzon need to be dealt with, and swiftly. Do you think you're capable of such a thing?\n\nYou decide. If so, then make haste to the castle and find an old friend of mine, a gnome named Tyrion. He's been watching Lescovar now for a couple weeks. He should be able to help you end this.",
+   "first": 1792295210,
    "frequency": 0,
+   "last": 1792295210,
+   "level": 31,
+   "objectiveText": "Speak to Tyrion in Stormwind Castle.",
+   "pickups": {
+    "npc:482@1453": {
+     "count": 1,
+     "id": 482,
+     "kind": "npc",
+     "mapID": 1453,
+     "name": "Elling Trias",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Trade District",
+     "x": 0.6613,
+     "xMax": 0.6613,
+     "xMin": 0.6613,
+     "xyCount": 1,
+     "y": 0.7419,
+     "yMax": 0.7419,
+     "yMin": 0.7419,
+     "zone": "Stormwind City"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1415:44:68": 9,
+     "1429:31:20": 23,
+     "1453:73:36": 1
+    }
+   },
+   "rewards": {
+    "xpOffered": {
+     "28": 250
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "Infiltrating the Castle"
+  },
+  "279": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 4
+   },
+   "chain": {
+    "next": {
+     "281": true
+    }
+   },
+   "completionText": "Ah, well done <name>.\n\nAccept this as payment for fulfillment of your contract with the Merchant Marines.",
+   "description": "Murlocs are crawling out from the deep waters and building their villages on the coastline.  They are harassing our fishers and merchants and must be stopped.\n\nOne of these Murlocs, Gobbler, skulks with other Bluegill Murlocs and harries merchants along the road, always then retreating to the safety of the nearby Murloc hovels.  Our merchants are in jeopardy, and we will pay to secure them.\n\nGobbler prowls the river inlet north of here.  Find him, slay his kin, and bring me his head.",
+   "first": 1792010805,
+   "frequency": 0,
+   "last": 1792089774,
+   "level": 22,
+   "objectiveText": "Kill 12 Bluegill Murlocs.\n\nSlay Gobbler and take his head.\n\nBring Gobbler's Head to Karl Boran in Menethil Harbor.",
+   "objectives": [
+    {
+     "required": 12,
+     "text": "Bluegill Murloc slain",
+     "type": "monster"
+    },
+    {
+     "required": 1,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:1242@1437": {
+     "count": 1,
+     "id": 1242,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Karl Boran",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.0843,
+     "xMax": 0.0843,
+     "xMin": 0.0843,
+     "xyCount": 1,
+     "y": 0.5846,
+     "yMax": 0.5846,
+     "yMin": 0.5846,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1437:15:40": 17,
+     "1437:17:41": 6
+    },
+    "turnin": {
+     "1415:48:48": 9,
+     "1437:8:59": 165
+    }
+   },
+   "progress": {
+    "1": {
+     "1437:13:38": 1,
+     "1437:13:40": 2,
+     "1437:13:41": 2,
+     "1437:13:42": 3,
+     "1437:14:38": 1,
+     "1437:16:38": 2,
+     "1437:16:41": 1
+    },
+    "2": {
+     "1437:15:40": 1
+    }
+   },
+   "progressText": "Our merchants will not be safe until we are rid of Gobbler and those Murlocs.",
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 1400,
+     "max": 1400,
+     "min": 1400
+    },
+    "moneyOffered": 1400,
+    "reputation": {
+     "Alliance": {
+      "count": 1,
+      "last": 25,
+      "max": 25,
+      "min": 25
+     },
+     "Darnassus": {
+      "count": 1,
+      "factionID": 69,
+      "last": 25,
+      "max": 25,
+      "min": 25
+     },
+     "Gnomeregan Exiles": {
+      "count": 1,
+      "factionID": 54,
+      "last": 25,
+      "max": 25,
+      "min": 25
+     },
+     "Ironforge": {
+      "count": 1,
+      "factionID": 47,
+      "last": 25,
+      "max": 25,
+      "min": 25
+     },
+     "Stormwind": {
+      "count": 1,
+      "factionID": 72,
+      "last": 100,
+      "max": 100,
+      "min": 100
+     }
+    },
+    "xp": {
+     "27": {
+      "count": 1,
+      "last": 1750,
+      "max": 1750,
+      "min": 1750
+     }
+    },
+    "xpObserved": {
+     "27": {
+      "count": 1,
+      "last": 1750,
+      "max": 1750,
+      "min": 1750
+     }
+    },
+    "xpOffered": {
+     "26": 1750,
+     "27": 1750
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 2,
+    "turnedIn": 1
+   },
+   "title": "Claws from the Deep",
+   "turnins": {
+    "npc:1242@1437": {
+     "count": 1,
+     "id": 1242,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Karl Boran",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.0843,
+     "xMax": 0.0843,
+     "xMin": 0.0843,
+     "xyCount": 1,
+     "y": 0.587,
+     "yMax": 0.587,
+     "yMin": 0.587,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "281": {
+   "builds": {
+    "1.60.1.70374": true,
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "284": true
+    },
+    "prev": {
+     "279": true
+    }
+   },
+   "completionText": "This crate is covered with clawed scratches, and the marks of water damage.  Prying it open reveals soggy and rotted straw, as if something of value was stored in the crate.  You search through the straw...\n\n...and find an armload of red-colored bottles.",
+   "description": "Not long ago a merchant vessel, the Blind Princess, was raided by Murlocs.  Although the ship escaped intact, much of its cargo was dragged overboard by the creatures, including a very valuable statuette of Terenas Menethil.  We want that statuette recovered.\n\nSearch the coastal Murloc hovels for crates, barrels and other evidence of lost cargo.  Find the Menethil Statuette and return it to me.",
+   "first": 1792089774,
+   "frequency": 0,
+   "last": 1792174430,
+   "level": 25,
+   "objectiveText": "Search the crates and barrels at the coastal Murloc camps.",
+   "pickups": {
+    "npc:1242@1437": {
+     "count": 1,
+     "id": 1242,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Karl Boran",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.0843,
+     "xMax": 0.0843,
+     "xMin": 0.0843,
+     "xyCount": 1,
+     "y": 0.587,
+     "yMax": 0.587,
+     "yMin": 0.587,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1415:48:46": 6,
+     "1437:14:41": 85
+    }
+   },
+   "rewards": {
+    "items": {
+     "929": {
+      "count": 5,
+      "name": "Healing Potion"
+     }
+    },
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "reputation": {
+     "Alliance": {
+      "count": 1,
+      "factionID": 469,
+      "last": 6,
+      "max": 6,
+      "min": 6
+     },
+     "Gnomeregan Exiles": {
+      "count": 1,
+      "factionID": 54,
+      "last": 6,
+      "max": 6,
+      "min": 6
+     },
+     "Ironforge": {
+      "count": 1,
+      "factionID": 47,
+      "last": 7,
+      "max": 7,
+      "min": 7
+     },
+     "Stormwind": {
+      "count": 1,
+      "factionID": 72,
+      "last": 25,
+      "max": 25,
+      "min": 25
+     }
+    },
+    "xp": {
+     "27": {
+      "count": 1,
+      "last": 500,
+      "max": 500,
+      "min": 500
+     }
+    },
+    "xpObserved": {
+     "27": {
+      "count": 1,
+      "last": 500,
+      "max": 500,
+      "min": 500
+     }
+    },
+    "xpOffered": {
+     "27": 500
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "Reclaiming Goods",
+   "turnins": {
+    "object:261@1437": {
+     "count": 1,
+     "id": 261,
+     "kind": "object",
+     "mapID": 1437,
+     "name": "Damaged Crate",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Bluegill Marsh",
+     "x": 0.1359,
+     "xMax": 0.1359,
+     "xMin": 0.1359,
+     "xyCount": 1,
+     "y": 0.415,
+     "yMax": 0.415,
+     "yMin": 0.415,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "284": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "285": true
+    },
+    "prev": {
+     "281": true
+    }
+   },
+   "completionText": "This barrel is largely untouched.  Prying it open...\n\n...you are assaulted by the pungent odor of cheese.  It's a little wet, but still tasty!",
+   "description": "You thoroughly search this cluster of Murloc hovels, and find no trace of the Menethil Statuette.\n\nPerhaps one of the two nearby hovels to the north and northeast will have more clues.",
+   "first": 1792174431,
+   "frequency": 0,
+   "last": 1792174478,
+   "level": 25,
+   "objectiveText": "Search for the Menethil Statuette.",
+   "pickups": {
+    "object:261@1437": {
+     "count": 1,
+     "id": 261,
+     "kind": "object",
+     "mapID": 1437,
+     "name": "Damaged Crate",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Bluegill Marsh",
+     "x": 0.1359,
+     "xMax": 0.1359,
+     "xMin": 0.1359,
+     "xyCount": 1,
+     "y": 0.415,
+     "yMax": 0.415,
+     "yMin": 0.415,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1437:14:38": 2
+    }
+   },
+   "rewards": {
+    "items": {
+     "422": {
+      "count": 10,
+      "name": "Dwarven Mild"
+     }
+    },
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "reputation": {
+     "Alliance": {
+      "count": 1,
+      "factionID": 469,
+      "last": 6,
+      "max": 6,
+      "min": 6
+     },
+     "Darnassus": {
+      "count": 1,
+      "factionID": 69,
+      "last": 6,
+      "max": 6,
+      "min": 6
+     },
+     "Gnomeregan Exiles": {
+      "count": 1,
+      "factionID": 54,
+      "last": 6,
+      "max": 6,
+      "min": 6
+     },
+     "Ironforge": {
+      "count": 1,
+      "factionID": 47,
+      "last": 6,
+      "max": 6,
+      "min": 6
+     },
+     "Stormwind": {
+      "count": 1,
+      "factionID": 72,
+      "last": 25,
+      "max": 25,
+      "min": 25
+     }
+    },
+    "xp": {
+     "27": {
+      "count": 1,
+      "last": 500,
+      "max": 500,
+      "min": 500
+     }
+    },
+    "xpObserved": {
+     "27": {
+      "count": 1,
+      "last": 500,
+      "max": 500,
+      "min": 500
+     }
+    },
+    "xpOffered": {
+     "27": 500
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "The Search Continues",
+   "turnins": {
+    "object:142151@1437": {
+     "count": 1,
+     "id": 142151,
+     "kind": "object",
+     "mapID": 1437,
+     "name": "Sealed Barrel",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Bluegill Marsh",
+     "x": 0.1359,
+     "xMax": 0.1359,
+     "xMin": 0.1359,
+     "xyCount": 1,
+     "y": 0.3813,
+     "yMax": 0.3813,
+     "yMin": 0.3813,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "285": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "286": true
+    },
+    "prev": {
+     "284": true
+    }
+   },
+   "completionText": "This barrel is halfway buried amidst the mud and grass ...",
+   "description": "This grouping of Murloc hovels, after a thorough inspection, reveals nothing.\n\n...but you're certain that the next clue you find will be fruitful.\n\nOne of the hovels to the north must have the Menethil Statuette!",
+   "first": 1792174478,
+   "frequency": 0,
+   "last": 1792174522,
+   "level": 25,
+   "objectiveText": "Continue searching the Murloc hovels for the Menethil Statuette.",
+   "pickups": {
+    "object:142151@1437": {
+     "count": 1,
+     "id": 142151,
+     "kind": "object",
+     "mapID": 1437,
+     "name": "Sealed Barrel",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Bluegill Marsh",
+     "x": 0.1359,
+     "xMax": 0.1359,
+     "xMin": 0.1359,
+     "xyCount": 1,
+     "y": 0.3813,
+     "yMax": 0.3813,
+     "yMin": 0.3813,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1437:14:35": 3
+    }
+   },
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "reputation": {
+     "Alliance": {
+      "count": 1,
+      "factionID": 469,
+      "last": 13,
+      "max": 13,
+      "min": 13
+     },
+     "Darnassus": {
+      "count": 1,
+      "factionID": 69,
+      "last": 13,
+      "max": 13,
+      "min": 13
+     },
+     "Gnomeregan Exiles": {
+      "count": 1,
+      "factionID": 54,
+      "last": 13,
+      "max": 13,
+      "min": 13
+     },
+     "Ironforge": {
+      "count": 1,
+      "factionID": 47,
+      "last": 12,
+      "max": 12,
+      "min": 12
+     },
+     "Stormwind": {
+      "count": 1,
+      "factionID": 72,
+      "last": 50,
+      "max": 50,
+      "min": 50
+     }
+    },
+    "xp": {
+     "28": {
+      "count": 1,
+      "last": 1000,
+      "max": 1000,
+      "min": 1000
+     }
+    },
+    "xpObserved": {
+     "28": {
+      "count": 1,
+      "last": 1000,
+      "max": 1000,
+      "min": 1000
+     }
+    },
+    "xpOffered": {
+     "27": 1000,
+     "28": 1000
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "Search More Hovels",
+   "turnins": {
+    "object:259@1437": {
+     "count": 1,
+     "id": 259,
+     "kind": "object",
+     "mapID": 1437,
+     "name": "Half-buried Barrel",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Bluegill Marsh",
+     "x": 0.1391,
+     "xMax": 0.1391,
+     "xMin": 0.1391,
+     "xyCount": 1,
+     "y": 0.349,
+     "yMax": 0.349,
+     "yMin": 0.349,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "286": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "98189": true
+    },
+    "prev": {
+     "285": true
+    }
+   },
+   "completionText": "The captain of the Blind Princess will be relieved to hear this precious cargo has been recovered.  You have well earned this payment for services rendered.\n\nIt is good to see dependable folk like you, especially in trying times such as these.",
+   "description": "After pulling the barrel free from the muck and opening it, a silvery figurine is found packed in fine straw.  It depicts a young, long-haired Paladin with hammer upraised.\n\nThis must be the Menethil Statuette!  You must now return it to Karl Boran in Menethil Harbor.",
+   "first": 1792174522,
+   "frequency": 0,
+   "last": 1792179838,
+   "level": 25,
+   "objectiveText": "Bring Karl Boran the Menethil Statuette.",
+   "objectives": [
+    {
+     "required": 1,
+     "text": "Bring Karl Boran the Menethil Statuette.",
+     "type": "log"
+    }
+   ],
+   "pickups": {
+    "object:259@1437": {
+     "count": 1,
+     "id": 259,
+     "kind": "object",
+     "mapID": 1437,
+     "name": "Half-buried Barrel",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Bluegill Marsh",
+     "x": 0.1391,
+     "xMax": 0.1391,
+     "xMin": 0.1391,
+     "xyCount": 1,
+     "y": 0.349,
+     "yMax": 0.349,
+     "yMin": 0.349,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1437:8:59": 38
+    }
+   },
+   "progressText": "Do you have the statuette?",
+   "rewards": {
+    "choices": {
+     "2949": {
+      "count": 1,
+      "name": "Mariner Boots"
+     },
+     "2950": {
+      "count": 1,
+      "name": "Icicle Rod"
+     }
+    },
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "xp": {
+     "28": {
+      "count": 1,
+      "last": 1500,
+      "max": 1500,
+      "min": 1500
+     }
+    },
+    "xpObserved": {
+     "28": {
+      "count": 1,
+      "last": 1500,
+      "max": 1500,
+      "min": 1500
+     }
+    },
+    "xpOffered": {
+     "28": 1500
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "Return the Statuette",
+   "turnins": {
+    "npc:1242@1437": {
+     "count": 1,
+     "id": 1242,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Karl Boran",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.0846,
+     "xMax": 0.0846,
+     "xMin": 0.0846,
+     "xyCount": 1,
+     "y": 0.586,
+     "yMax": 0.586,
+     "yMin": 0.586,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "288": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 1
+   },
+   "chain": {
+    "next": {
+     "289": true
+    }
+   },
+   "completionText": "Ah! That hits the spot, and loosens the tongue. Thanks, mate!",
+   "first": 1792010883,
+   "frequency": 0,
+   "last": 1792010883,
    "level": 27,
    "objectives": [
     {
@@ -855,11 +1868,325 @@
    ],
    "poi": {
     "objective": {
-     "1415:48:48": 4,
-     "1437:11:61": 16
+     "1415:48:48": 5,
+     "1437:11:61": 35
+    },
+    "turnin": {
+     "1437:11:60": 2
     }
    },
-   "title": "The Third Fleet"
+   "progress": {
+    "1": {
+     "1437:11:61": 1
+    }
+   },
+   "progressText": "Oh, I'm so very thirsty! Won't you buy a drink for this poor, pathetic fool?",
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "xp": {
+     "26": {
+      "count": 1,
+      "last": 220,
+      "max": 220,
+      "min": 220
+     }
+    },
+    "xpObserved": {
+     "26": {
+      "count": 1,
+      "last": 220,
+      "max": 220,
+      "min": 220
+     }
+    },
+    "xpOffered": {
+     "26": 220
+    }
+   },
+   "seen": {
+    "turnedIn": 1
+   },
+   "title": "The Third Fleet",
+   "turnins": {
+    "npc:1239@1437": {
+     "count": 1,
+     "id": 1239,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "First Mate Fitzsimmons",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.1087,
+     "xMax": 0.1087,
+     "xMin": 0.1087,
+     "xyCount": 1,
+     "y": 0.5958,
+     "yMax": 0.5958,
+     "yMin": 0.5958,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "289": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "290": true
+    },
+    "prev": {
+     "288": true
+    }
+   },
+   "completionText": "My thanks to you, <name>. And the gratitude of my cursed brethren goes to you as well.",
+   "description": "<Bolstered, Fitzsimmons continues his tale...>\n\nI am the sole survivor of the ill-fated Third Fleet of Kul Tiras, wrecked off the coast to the north. But although I'm the only member of the fleet still breathing, I'm not the only one still walking about! For on one of our ships was hidden a great, and terrible treasure, and the eerie power of it keeps the souls of my brothers trapped within the ships' rotting hulls.\n\nBut if you can free some of my brothers, then perhaps you can break their curse.",
+   "first": 1792010883,
+   "frequency": 0,
+   "last": 1792018387,
+   "level": 29,
+   "objectiveText": "Kill 13 Cursed Sailors, 5 Cursed Marines and First Mate Snellig. Bring Snellig's Snuffbox to First Mate Fitzsimmons in Menethil Harbor.",
+   "objectives": [
+    {
+     "required": 13,
+     "text": "Cursed Sailor slain",
+     "type": "monster"
+    },
+    {
+     "required": 5,
+     "text": "Cursed Marine slain",
+     "type": "monster"
+    },
+    {
+     "required": 1,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:1239@1437": {
+     "count": 1,
+     "id": 1239,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "First Mate Fitzsimmons",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.1087,
+     "xMax": 0.1087,
+     "xMin": 0.1087,
+     "xyCount": 1,
+     "y": 0.5958,
+     "yMax": 0.5958,
+     "yMin": 0.5958,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1437:14:28": 10,
+     "1437:14:30": 26,
+     "1437:15:25": 5
+    },
+    "turnin": {
+     "1415:48:48": 1,
+     "1437:11:60": 65
+    }
+   },
+   "progress": {
+    "1": {
+     "1437:14:29": 3,
+     "1437:14:30": 7,
+     "1437:14:31": 2,
+     "1437:15:30": 1
+    },
+    "2": {
+     "1437:14:29": 1,
+     "1437:14:30": 3,
+     "1437:15:30": 1
+    },
+    "3": {
+     "1437:15:30": 1
+    }
+   },
+   "progressText": "In my dreams, I can sometimes hear the doomed moans of my brethren! Please, good sir, free them from the bonds and quiet their cries.",
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 1900,
+     "max": 1900,
+     "min": 1900
+    },
+    "moneyOffered": 1900,
+    "reputation": {
+     "Alliance": {
+      "count": 1,
+      "last": 18,
+      "max": 18,
+      "min": 18
+     },
+     "Darnassus": {
+      "count": 1,
+      "factionID": 69,
+      "last": 19,
+      "max": 19,
+      "min": 19
+     },
+     "Gnomeregan Exiles": {
+      "count": 1,
+      "factionID": 54,
+      "last": 18,
+      "max": 18,
+      "min": 18
+     },
+     "Ironforge": {
+      "count": 1,
+      "factionID": 47,
+      "last": 18,
+      "max": 18,
+      "min": 18
+     },
+     "Stormwind": {
+      "count": 1,
+      "factionID": 72,
+      "last": 75,
+      "max": 75,
+      "min": 75
+     }
+    },
+    "xp": {
+     "27": {
+      "count": 1,
+      "last": 1750,
+      "max": 1750,
+      "min": 1750
+     }
+    },
+    "xpObserved": {
+     "27": {
+      "count": 1,
+      "last": 1750,
+      "max": 1750,
+      "min": 1750
+     }
+    },
+    "xpOffered": {
+     "26": 1750,
+     "27": 1750
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "The Cursed Crew",
+   "turnins": {
+    "npc:1239@1437": {
+     "count": 1,
+     "id": 1239,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "First Mate Fitzsimmons",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.1092,
+     "xMax": 0.1092,
+     "xMin": 0.1092,
+     "xyCount": 1,
+     "y": 0.5956,
+     "yMax": 0.5956,
+     "yMin": 0.5956,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "290": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "chain": {
+    "prev": {
+     "289": true
+    }
+   },
+   "description": "To break the curse and free all of my brethren, the...thing...stowed on my ship must be retrieved and cleansed! I don't know what it was, but I do know that it was stored securely in the ship's strongbox, which Captain Halyndor lorded over.\n\nMy old captain is still in my dreams. I know he walks my doomed ship, the Intrepid. Get the key from him, and use it to open the Intrepid's strongbox.\n\nThen, after you have the cursed thing, bring it to the priest Glorin Steelbrow in town.",
+   "first": 1792018387,
+   "frequency": 0,
+   "last": 1792018387,
+   "level": 30,
+   "objectiveText": "Get the Intrepid Strongbox Key from Captain Halyndor.\n\nUse the key to open the Intrepid's Locked Strongbox.",
+   "objectives": [
+    {
+     "required": 1,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:1239@1437": {
+     "count": 1,
+     "id": 1239,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "First Mate Fitzsimmons",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.1092,
+     "xMax": 0.1092,
+     "xMin": 0.1092,
+     "xyCount": 1,
+     "y": 0.5956,
+     "yMax": 0.5956,
+     "yMin": 0.5956,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:48:44": 34,
+     "1437:15:24": 288
+    }
+   },
+   "rewards": {
+    "xpOffered": {
+     "27": 1200
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "Lifting the Curse"
   },
   "2922": {
    "frequency": 0,
@@ -873,7 +2200,7 @@
    ],
    "poi": {
     "objective": {
-     "1415:43:53": 4
+     "1415:43:53": 40
     }
    },
    "tag": "Dungeon",
@@ -892,7 +2219,7 @@
    ],
    "poi": {
     "objective": {
-     "1415:44:54": 4
+     "1415:44:54": 40
     }
    },
    "tag": "Dungeon",
@@ -911,7 +2238,7 @@
    ],
    "poi": {
     "objective": {
-     "1415:44:54": 4
+     "1415:44:54": 40
     }
    },
    "tag": "Dungeon",
@@ -930,7 +2257,8 @@
    ],
    "poi": {
     "objective": {
-     "1415:44:54": 4
+     "1415:43:53": 8,
+     "1415:44:54": 32
     }
    },
    "tag": "Dungeon",
@@ -949,7 +2277,7 @@
    ],
    "poi": {
     "objective": {
-     "1415:44:54": 4
+     "1415:44:54": 40
     }
    },
    "tag": "Dungeon",
@@ -968,12 +2296,680 @@
    ],
    "poi": {
     "objective": {
-     "1415:44:54": 4
+     "1415:44:54": 40
     }
    },
    "tag": "Dungeon",
    "tagID": 81,
    "title": "Data Rescue"
+  },
+  "294": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "The situation is severe, that much is for sure. When we uncovered these bones it attracted the Raptors. These filthy beasts killed my brethren and trapped me, Merrin and the poor Prospector up here.\n\nHelp clear the Wetlands of these Raptors, <name>. Mottled Raptors and Mottled Screechers are just West of the bluff there. Kill 10 of each, if you can.\n\nThat will be a good start to the vengeance I have planned for them.",
+   "first": 1792175144,
+   "frequency": 0,
+   "last": 1792175144,
+   "level": 24,
+   "objectiveText": "Ormer Ironbraid at the Whelgar Excavation Site wants you to kill 10 Mottled Screechers and 10 Mottled Raptors.",
+   "objectives": [
+    {
+     "required": 10,
+     "text": "Mottled Raptor slain",
+     "type": "monster"
+    },
+    {
+     "required": 10,
+     "text": "Mottled Screecher slain",
+     "type": "monster"
+    }
+   ],
+   "pickups": {
+    "npc:1078@1437": {
+     "count": 1,
+     "id": 1078,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Ormer Ironbraid",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Whelgar's Excavation Site",
+     "x": 0.3794,
+     "xMax": 0.3794,
+     "xMin": 0.3794,
+     "xyCount": 1,
+     "y": 0.5122,
+     "yMax": 0.5122,
+     "yMin": 0.5122,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:49:47": 12,
+     "1415:50:46": 8,
+     "1437:24:52": 86,
+     "1437:30:45": 12
+    }
+   },
+   "rewards": {
+    "moneyOffered": 1700,
+    "xpOffered": {
+     "28": 1950
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "Ormer's Revenge"
+  },
+  "299": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "chain": {
+    "prev": {
+     "95810": true
+    }
+   },
+   "description": "Just before the invasion I uncovered a large tablet called the Goaz Stone. The translated text breaks off in 4 places. The text speaks of a \"divine plan\" and a \"doomed prophecy.\"\n\nI fear we are running out of time. I am too old to go down and brave those beasts. But you are strong.\n\nScour the excavation site and uncover the 4 missing tablet fragments: Ados, Modr, Golm and Neru. Search for them in ancient artifacts or where the soil is loose. Bring them to me so I can begin unlocking the mystery!",
+   "first": 1792176432,
+   "frequency": 0,
+   "last": 1792176432,
+   "level": 27,
+   "objectiveText": "Prospector Whelgar wants you to scour the excavation site in search of the 4 missing tablet fragments: Ados, Modr, Golm and Neru.",
+   "objectives": [
+    {
+     "required": 1,
+     "type": "item"
+    },
+    {
+     "required": 1,
+     "type": "item"
+    },
+    {
+     "required": 1,
+     "type": "item"
+    },
+    {
+     "required": 1,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "auto:?@1437": {
+     "count": 1,
+     "kind": "auto",
+     "mapID": 1437,
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Whelgar's Excavation Site",
+     "x": 0.388,
+     "xMax": 0.388,
+     "xMin": 0.388,
+     "xyCount": 1,
+     "y": 0.5232,
+     "yMax": 0.5232,
+     "yMin": 0.5232,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:51:47": 20,
+     "1437:34:51": 86,
+     "1437:35:50": 8
+    }
+   },
+   "rewards": {
+    "moneyOffered": 2200,
+    "xpOffered": {
+     "28": 2200
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "Uncovering the Past"
+  },
+  "303": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "War rages both home and abroad. While mighty Dwarven soldiers give their lives in far off territories in the name of the Alliance, our own lands fall prey to the evil deeds of the Dark Iron Dwarves.  They laid waste to the Thandol Span. Dun Modr fell soon after.\n\nWe need you to gather force and push the front back.  If you can kill 15 Dark Iron Dwarves, 5 Tunnelers, 5 Saboteurs and 5 Demolitionists, the reserve might arrive in time to finish the drive.\n\nNow make haste!",
+   "first": 1792012473,
+   "frequency": 0,
+   "last": 1792012474,
+   "level": 30,
+   "objectiveText": "Motley Garmason at Dun Modr wants you to kill 15 Dark Iron Dwarves,  5 Dark Iron Tunnelers, 5 Dark Iron Saboteurs and 5 Dark Iron Demolitionists.",
+   "objectives": [
+    {
+     "required": 15,
+     "text": "Dark Iron Dwarf slain",
+     "type": "monster"
+    },
+    {
+     "required": 5,
+     "text": "Dark Iron Tunneler slain",
+     "type": "monster"
+    },
+    {
+     "required": 5,
+     "text": "Dark Iron Saboteur slain",
+     "type": "monster"
+    },
+    {
+     "required": 5,
+     "text": "Dark Iron Demolitionist slain",
+     "type": "monster"
+    }
+   ],
+   "pickups": {
+    "npc:1074@1437": {
+     "count": 1,
+     "id": 1074,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Motley Garmason",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Dun Modr",
+     "x": 0.497,
+     "xMax": 0.497,
+     "xMin": 0.497,
+     "xyCount": 1,
+     "y": 0.1833,
+     "yMax": 0.1833,
+     "yMin": 0.1833,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:54:44": 35,
+     "1437:47:17": 5,
+     "1437:48:17": 40,
+     "1437:62:26": 295,
+     "1437:62:27": 3
+    }
+   },
+   "progress": {
+    "1": {
+     "1437:47:16": 3,
+     "1437:47:17": 2,
+     "1437:48:17": 7,
+     "1437:49:17": 2,
+     "1437:50:17": 1
+    },
+    "2": {
+     "1437:47:16": 1,
+     "1437:48:16": 2,
+     "1437:48:17": 1,
+     "1437:48:19": 1
+    },
+    "3": {
+     "1437:48:17": 3,
+     "1437:48:18": 1,
+     "1437:51:13": 1
+    },
+    "4": {
+     "1437:47:15": 2
+    }
+   },
+   "rewards": {
+    "moneyOffered": 2500,
+    "xpOffered": {
+     "26": 2450
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "tag": "Elite",
+   "tagID": 1,
+   "title": "The Dark Iron War"
+  },
+  "304": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "chain": {
+    "prev": {
+     "472": true
+    }
+   },
+   "description": "Many of my soldiers died in the battle of Dun Modr.  My own brother perished when the West Bridge over the Thandol Span was destroyed.  Aye, the Dark Iron dwarves are a devilish breed.  From what Roggo was able to gather, the leader of this band of thugs in the Wetlands is a warlock named Balgaras the Foul.  He is quite a coward however.  He sends his soldiers to do his bidding but stays elusive, avoiding danger.\n\nIf you can find the spineless scum, slay him and bring me his ear.  I will reward you, paladin.",
+   "first": 1792012466,
+   "frequency": 0,
+   "last": 1792012467,
+   "level": 34,
+   "objectiveText": "Kill Balgaras the Foul and bring his ear to Longbraid the Grim outside of Dun Modr.",
+   "objectives": [
+    {
+     "required": 1,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:1071@1437": {
+     "count": 1,
+     "id": 1071,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Longbraid the Grim",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Dun Modr",
+     "x": 0.4984,
+     "xMax": 0.4984,
+     "xMin": 0.4984,
+     "xyCount": 1,
+     "y": 0.1833,
+     "yMax": 0.1833,
+     "yMin": 0.1833,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:52:43": 35,
+     "1437:47:17": 338,
+     "1437:61:26": 7
+    }
+   },
+   "progressText": "Were you able to locate Balgaras the Foul yet, paladin?  He has been evading us for quite some time.",
+   "rewards": {
+    "choices": {
+     "270050": {
+      "count": 1,
+      "name": "Fury Ring"
+     },
+     "2916": {
+      "count": 1,
+      "name": "Gold Lion Shield"
+     },
+     "2917": {
+      "count": 1,
+      "name": "Tranquil Ring"
+     }
+    },
+    "xpOffered": {
+     "26": 3350
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "tag": "Elite",
+   "tagID": 1,
+   "title": "A Grim Task"
+  },
+  "305": {
+   "builds": {
+    "1.60.1.70374": true,
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "306": true
+    }
+   },
+   "completionText": "Oh, thank the heavens you are here!",
+   "description": "You cannot imagine how worried I have been.\n\nMy wife, Merrin, has been sending me letters each week for the past month. She is part of the Whelgar Excavation team. But it has been nearly two weeks since her last correspondence. Surely something is wrong!\n\nLongbraid said that he would send a scout to check up on things if we did not hear from the team soon. I assume that scout is you, <name>. Find Merrin at the excavation site to the east!",
+   "first": 1792010981,
+   "frequency": 0,
+   "last": 1792176434,
+   "level": 24,
+   "objectiveText": "Tarrel Rockweaver wants you to travel to the Excavation Site and contact Merrin Rockweaver.",
+   "pickups": {
+    "npc:2096@1437": {
+     "count": 1,
+     "id": 2096,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Tarrel Rockweaver",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.1146,
+     "xMax": 0.1146,
+     "xMin": 0.1146,
+     "xyCount": 1,
+     "y": 0.5229,
+     "yMax": 0.5229,
+     "yMin": 0.5229,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1415:51:47": 15,
+     "1437:39:52": 298
+    }
+   },
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "reputation": {
+     "Alliance": {
+      "count": 1,
+      "last": 12,
+      "max": 12,
+      "min": 12
+     },
+     "Darnassus": {
+      "count": 1,
+      "factionID": 69,
+      "last": 12,
+      "max": 12,
+      "min": 12
+     },
+     "Gnomeregan Exiles": {
+      "count": 1,
+      "factionID": 54,
+      "last": 12,
+      "max": 12,
+      "min": 12
+     },
+     "Ironforge": {
+      "count": 1,
+      "factionID": 47,
+      "last": 50,
+      "max": 50,
+      "min": 50
+     },
+     "Stormwind": {
+      "count": 1,
+      "factionID": 72,
+      "last": 13,
+      "max": 13,
+      "min": 13
+     }
+    },
+    "xp": {
+     "28": {
+      "count": 1,
+      "last": 975,
+      "max": 975,
+      "min": 975
+     }
+    },
+    "xpObserved": {
+     "28": {
+      "count": 1,
+      "last": 975,
+      "max": 975,
+      "min": 975
+     }
+    },
+    "xpOffered": {
+     "26": 975,
+     "28": 975
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "In Search of the Excavation Team",
+   "turnins": {
+    "npc:1076@1437": {
+     "count": 1,
+     "id": 1076,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Merrin Rockweaver",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Whelgar's Excavation Site",
+     "x": 0.3886,
+     "xMax": 0.3886,
+     "xMin": 0.3886,
+     "xyCount": 1,
+     "y": 0.523,
+     "yMax": 0.523,
+     "yMin": 0.523,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "306": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "chain": {
+    "prev": {
+     "305": true
+    }
+   },
+   "description": "It was horrible! We were uncovering some rare artifacts and we began to discover these large bones.\n\nBefore we knew what was happening, these Mottled Raptors overwhelmed the dig site. Many lives were lost.\n\nOrmer here -- so brave -- saved the Prospector and me. He defended us as we ran for shelter. Now we are trapped. And our hard work lies in ruin.\n\nHere, take this note back to my sweet Tarrel. It will explain the situation to him.",
+   "first": 1792176434,
+   "frequency": 0,
+   "last": 1792176434,
+   "level": 24,
+   "objectiveText": "Return to Tarrel Rockweaver with Merrin's note.",
+   "objectives": [
+    {
+     "required": 1,
+     "text": "Return to Tarrel Rockweaver with Merrin's note.",
+     "type": "log"
+    }
+   ],
+   "pickups": {
+    "npc:1076@1437": {
+     "count": 1,
+     "id": 1076,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Merrin Rockweaver",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Whelgar's Excavation Site",
+     "x": 0.3886,
+     "xMax": 0.3886,
+     "xMin": 0.3886,
+     "xyCount": 1,
+     "y": 0.523,
+     "yMax": 0.523,
+     "yMin": 0.523,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1415:48:47": 20,
+     "1437:11:52": 93
+    }
+   },
+   "rewards": {
+    "xpOffered": {
+     "28": 490
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "In Search of the Excavation Team"
+  },
+  "3102": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:ROGUE:Alliance": 3
+   },
+   "chain": {
+    "prev": {
+     "7": true
+    }
+   },
+   "completionText": "You're gonna find a number of outfits that covet our skills, <name>. Adventurers, SI:7... heck, even the Defias Brotherhood wouldn't mind a spy or two inside Stormwind. But you remember this, you're your own woman. Don't let nobody bully you into doing something you don't wanna do! Besides, we hold all the cards... at least, we do before the game's done. Know what I mean?\n\nAnyway, just wanted to introduce myself and let you know that I'm here if you need any training. Come by anytime.",
+   "description": "I was asked to bring this to your attention as soon as you returned from the kobold camps, <name>. It appears to be a letter sealed with the insignia of Jorik, one of our local trainers. I wouldn't hesitate to read it before you go about any other business here in the Abbey.",
+   "first": 1792017405,
+   "frequency": 0,
+   "last": 1792017567,
+   "level": 1,
+   "objectiveText": "Read the Encrypted Letter and speak to Jorik Kerridan in the stable behind Northshire Abbey.",
+   "objectives": [
+    {
+     "required": 1,
+     "text": "Read the Encrypted Letter and speak to Jorik Kerridan in the stable behind Northshire Abbey.",
+     "type": "log"
+    }
+   ],
+   "pickups": {
+    "npc:197@1429": {
+     "count": 1,
+     "id": 197,
+     "kind": "npc",
+     "mapID": 1429,
+     "name": "Marshal McBride",
+     "playerLevel": {
+      "count": 1,
+      "last": 3,
+      "max": 3,
+      "min": 3
+     },
+     "subzone": "Northshire Valley",
+     "x": 0.4884,
+     "xMax": 0.4884,
+     "xMin": 0.4884,
+     "xyCount": 1,
+     "y": 0.4168,
+     "yMax": 0.4168,
+     "yMin": 0.4168,
+     "zone": "Elwynn Forest"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1429:50:40": 8
+    }
+   },
+   "progressText": "You made it here in one piece, and it doesn't look like too many people saw you. Good enough for me. I don't like to have much attention drawn to me back here... nice and quiet. I'm sure you can understand.\n\nHave any trouble yet? I'm glad to hear not. That'll change soon enough.",
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "reputation": {
+     "Stormwind": {
+      "count": 1,
+      "factionID": 72,
+      "last": 50,
+      "max": 50,
+      "min": 50
+     }
+    },
+    "xp": {
+     "3": {
+      "count": 1,
+      "last": 40,
+      "max": 40,
+      "min": 40
+     }
+    },
+    "xpObserved": {
+     "3": {
+      "count": 1,
+      "last": 40,
+      "max": 40,
+      "min": 40
+     }
+    },
+    "xpOffered": {
+     "3": 40
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "Encrypted Letter",
+   "turnins": {
+    "npc:915@1429": {
+     "count": 1,
+     "id": 915,
+     "kind": "npc",
+     "mapID": 1429,
+     "name": "Jorik Kerridan",
+     "playerLevel": {
+      "count": 1,
+      "last": 3,
+      "max": 3,
+      "min": 3
+     },
+     "subzone": "Northshire Valley",
+     "x": 0.5036,
+     "xMax": 0.5036,
+     "xMin": 0.5036,
+     "xyCount": 1,
+     "y": 0.3992,
+     "yMax": 0.3992,
+     "yMin": 0.3992,
+     "zone": "Elwynn Forest"
+    }
+   }
   },
   "3105": {
    "builds": {
@@ -1100,9 +3096,11 @@
   },
   "33": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70338": true,
+    "1.60.1.70374": true
    },
    "by": {
+    "Human:ROGUE:Alliance": 3,
     "Human:WARLOCK:Alliance": 3
    },
    "chain": {
@@ -1114,7 +3112,7 @@
    "description": "I hate those nasty timber wolves!  But I sure like eating wolf steaks...  Bring me tough wolf meat and I will exchange it for something you'll find useful.\n\nTough wolf meat is gathered from hunting the timber wolves and young wolves wandering the Northshire countryside.",
    "first": 1791919801,
    "frequency": 0,
-   "last": 1791920407,
+   "last": 1792017341,
    "level": 2,
    "objectiveText": "Bring 8 pieces of Tough Wolf Meat to Eagan Peltskinner outside Northshire Abbey.",
    "objectives": [
@@ -1125,39 +3123,44 @@
    ],
    "pickups": {
     "npc:196@1429": {
-     "count": 1,
+     "count": 2,
      "id": 196,
      "kind": "npc",
      "mapID": 1429,
      "name": "Eagan Peltskinner",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 1,
       "max": 1,
       "min": 1
      },
      "subzone": "Northshire Valley",
-     "x": 0.4887,
-     "xMax": 0.4887,
+     "x": 0.4889,
+     "xMax": 0.4892,
      "xMin": 0.4887,
-     "xyCount": 1,
+     "xyCount": 2,
      "y": 0.4016,
      "yMax": 0.4016,
-     "yMin": 0.4016,
+     "yMin": 0.4015,
      "zone": "Elwynn Forest"
     }
    },
    "poi": {
     "objective": {
-     "1429:48:40": 2,
-     "1429:49:41": 12
+     "1415:46:70": 1,
+     "1429:48:40": 37,
+     "1429:49:41": 13
     },
     "turnin": {
-     "1429:49:40": 13
+     "1429:49:40": 14
     }
    },
    "progress": {
     "1": {
+     "1429:47:37": 1,
+     "1429:48:37": 2,
+     "1429:48:39": 1,
+     "1429:48:40": 4,
      "1429:50:37": 1,
      "1429:50:38": 1,
      "1429:51:41": 1,
@@ -1179,7 +3182,7 @@
      }
     },
     "money": {
-     "count": 1,
+     "count": 2,
      "last": 0,
      "max": 0,
      "min": 0
@@ -1195,7 +3198,7 @@
     },
     "xp": {
      "2": {
-      "count": 1,
+      "count": 2,
       "last": 170,
       "max": 170,
       "min": 170
@@ -1203,7 +3206,7 @@
     },
     "xpObserved": {
      "2": {
-      "count": 1,
+      "count": 2,
       "last": 170,
       "max": 170,
       "min": 170
@@ -1215,33 +3218,142 @@
     }
    },
    "seen": {
-    "accepted": 1,
-    "offered": 1,
-    "turnedIn": 1
+    "accepted": 2,
+    "offered": 2,
+    "turnedIn": 2
    },
    "title": "Wolves Across the Border",
    "turnins": {
     "npc:196@1429": {
-     "count": 1,
+     "count": 2,
      "id": 196,
      "kind": "npc",
      "mapID": 1429,
      "name": "Eagan Peltskinner",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 2,
       "max": 2,
       "min": 2
      },
      "subzone": "Northshire Valley",
-     "x": 0.4886,
+     "x": 0.4883,
      "xMax": 0.4886,
-     "xMin": 0.4886,
-     "xyCount": 1,
-     "y": 0.4018,
+     "xMin": 0.4881,
+     "xyCount": 2,
+     "y": 0.4014,
      "yMax": 0.4018,
-     "yMin": 0.4018,
+     "yMin": 0.4011,
      "zone": "Elwynn Forest"
+    }
+   }
+  },
+  "350": {
+   "builds": {
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "2745": true
+    },
+    "prev": {
+     "393": true
+    }
+   },
+   "completionText": "You're kidding? Shaw wants my help again? Of all the nerve...\n\nThe Defias Brotherhood, you say? Well, you're certainly the bearer of wonderful news, aren't you? Next you're going to tell me that Deathwing is still alive and attacking the city.\n\nAll right, tell me everything from the beginning. And don't leave out something you think might not be important. I need to know it all.",
+   "description": "That Marzon would be contacting a member of the Defias and have ties to Lescovar...\n\nHaving killed VanCleef and Thredd, it would be hard to see Lescovar brought to proper justice, as your evidence is nothing without their testimonies. That is not even considering the fact that Lescovar is a noble and well connected. It effectively makes him above the law.\n\nYou'll need other help. I loathe to do so, but there is someone I know that will aid us. You'll find Trias in the Trade District of the city.",
+   "first": 1792294590,
+   "frequency": 0,
+   "last": 1792295210,
+   "level": 31,
+   "objectiveText": "Speak to Elling Trias in Stormwind.",
+   "pickups": {
+    "npc:332@1453": {
+     "count": 1,
+     "id": 332,
+     "kind": "npc",
+     "mapID": 1453,
+     "name": "Master Mathias Shaw",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "SI:7",
+     "x": 0.7836,
+     "xMax": 0.7836,
+     "xMin": 0.7836,
+     "xyCount": 1,
+     "y": 0.7078,
+     "yMax": 0.7078,
+     "yMin": 0.7078,
+     "zone": "Stormwind City"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1453:66:74": 23
+    }
+   },
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "xp": {
+     "28": {
+      "count": 1,
+      "last": 250,
+      "max": 250,
+      "min": 250
+     }
+    },
+    "xpObserved": {
+     "28": {
+      "count": 1,
+      "last": 250,
+      "max": 250,
+      "min": 250
+     }
+    },
+    "xpOffered": {
+     "28": 250
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "Look to an Old Friend",
+   "turnins": {
+    "npc:482@1453": {
+     "count": 1,
+     "id": 482,
+     "kind": "npc",
+     "mapID": 1453,
+     "name": "Elling Trias",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Trade District",
+     "x": 0.6613,
+     "xMax": 0.6613,
+     "xMin": 0.6613,
+     "xyCount": 1,
+     "y": 0.7419,
+     "yMax": 0.7419,
+     "yMin": 0.7419,
+     "zone": "Stormwind City"
     }
    }
   },
@@ -1651,7 +3763,21 @@
    }
   },
   "393": {
+   "builds": {
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 1
+   },
+   "chain": {
+    "next": {
+     "350": true
+    }
+   },
+   "completionText": "What? What's this? Yes, I think I do know who this man is, but his name is not Maelik. Assassins wear many names and many masks, discarding them as they lose their usefulness. Another alias known to be used by this man is Marzon; though even that is surely not his true name.\n\nRegardless, he is an assassin and I know a good deal about him.\n\nMarzon is currently under the employ of Lord Gregor Lescovar, a lord of shady reputation, even given the corruption of the nobility of Stormwind.",
+   "first": 1792294590,
    "frequency": 0,
+   "last": 1792294590,
    "level": 29,
    "objectives": [
     {
@@ -1662,33 +3788,223 @@
    ],
    "poi": {
     "turnin": {
-     "1415:44:69": 4
+     "1415:44:69": 31,
+     "1453:78:71": 4
     }
    },
-   "title": "Shadow of the Past"
+   "progressText": "Greetings. Of what service can I be to you, paladin?",
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "reputation": {
+     "Alliance": {
+      "count": 1,
+      "last": 6,
+      "max": 6,
+      "min": 6
+     },
+     "Darnassus": {
+      "count": 1,
+      "factionID": 69,
+      "last": 6,
+      "max": 6,
+      "min": 6
+     },
+     "Gnomeregan Exiles": {
+      "count": 1,
+      "factionID": 54,
+      "last": 6,
+      "max": 6,
+      "min": 6
+     },
+     "Ironforge": {
+      "count": 1,
+      "factionID": 47,
+      "last": 6,
+      "max": 6,
+      "min": 6
+     },
+     "Stormwind": {
+      "count": 1,
+      "factionID": 72,
+      "last": 25,
+      "max": 25,
+      "min": 25
+     }
+    },
+    "xp": {
+     "28": {
+      "count": 1,
+      "last": 600,
+      "max": 600,
+      "min": 600
+     }
+    },
+    "xpObserved": {
+     "28": {
+      "count": 1,
+      "last": 600,
+      "max": 600,
+      "min": 600
+     }
+    },
+    "xpOffered": {
+     "28": 600
+    }
+   },
+   "seen": {
+    "turnedIn": 1
+   },
+   "title": "Shadow of the Past",
+   "turnins": {
+    "npc:332@1453": {
+     "count": 1,
+     "id": 332,
+     "kind": "npc",
+     "mapID": 1453,
+     "name": "Master Mathias Shaw",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "SI:7",
+     "x": 0.7836,
+     "xMax": 0.7836,
+     "xMin": 0.7836,
+     "xyCount": 1,
+     "y": 0.7078,
+     "yMax": 0.7078,
+     "yMin": 0.7078,
+     "zone": "Stormwind City"
+    }
+   }
   },
   "463": {
    "frequency": 0,
    "level": 21,
    "poi": {
     "turnin": {
-     "1415:53:46": 4,
-     "1437:56:40": 16
+     "1415:53:46": 40,
+     "1437:56:40": 433
     }
    },
    "title": "The Greenwarden"
+  },
+  "464": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "The Dragonmaw orc clan was all but destroyed by the end of the Second War, after they lost control of their red dragon pets. The dragons were not very happy with their old masters, and fiercely hunted the Dragonmaws. What few remained fled from Grim Batol and into the Mountains east of Whelgar's Excavation.\n\nNow they've gained strength, and have an encampment northeast of Menethil.\n\nWe want you to attack that encampment. Gather and bring me their war banners as proof.",
+   "first": 1792010737,
+   "frequency": 0,
+   "last": 1792010738,
+   "level": 28,
+   "objectiveText": "Bring 8 Dragonmaw War Banners to Captain Stoutfist.",
+   "objectives": [
+    {
+     "required": 8,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:2104@1437": {
+     "count": 1,
+     "id": 2104,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Captain Stoutfist",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Menethil Keep",
+     "x": 0.0991,
+     "xMax": 0.0991,
+     "xMin": 0.0991,
+     "xyCount": 1,
+     "y": 0.5736,
+     "yMax": 0.5736,
+     "yMin": 0.5736,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:52:46": 35,
+     "1437:45:47": 406
+    }
+   },
+   "rewards": {
+    "moneyOffered": 2500,
+    "xpOffered": {
+     "26": 2300
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "War Banners"
   },
   "47": {
    "builds": {
     "1.60.1.70374": true
    },
    "by": {
-    "Human:WARLOCK:Alliance": 4
+    "Human:WARLOCK:Alliance": 6
    },
    "description": "The Kobolds in these parts sometimes carry Gold Dust on them.  I could really use the stuff - bring me a load of it and I'll give you the best price in town...best price in town!\n\nYou can find kobolds in the Fargodeep Mine to the south, and around the Jasperlode Mine to the northeast.",
    "first": 1791954792,
-   "last": 1791954826,
+   "frequency": 0,
+   "last": 1791955207,
+   "level": 7,
    "objectiveText": "Bring 10 Gold Dust to Remy \"Two Times\" in Goldshire.  Gold Dust is gathered from Kobolds in Elwynn Forest.",
+   "objectives": [
+    {
+     "required": 10,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:241@1429": {
+     "count": 1,
+     "id": 241,
+     "kind": "npc",
+     "mapID": 1429,
+     "name": "Remy \"Two Times\"",
+     "playerLevel": {
+      "count": 1,
+      "last": 6,
+      "max": 6,
+      "min": 6
+     },
+     "subzone": "Goldshire",
+     "x": 0.4215,
+     "xMax": 0.4215,
+     "xMin": 0.4215,
+     "xyCount": 1,
+     "y": 0.6713,
+     "yMax": 0.6713,
+     "yMin": 0.6713,
+     "zone": "Elwynn Forest"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1429:39:81": 1
+    }
+   },
    "rewards": {
     "items": {
      "1191": {
@@ -1702,15 +4018,530 @@
     }
    },
    "seen": {
-    "offered": 4
+    "accepted": 1,
+    "offered": 5
    },
    "title": "Gold Dust Exchange"
   },
-  "5261": {
+  "470": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70374": true
    },
    "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "completionText": "Oh, thank you, <name>! I was afraid that it was lost for good!\n\n<She quickly empties the contents of the ooze-covered bag onto the ground, before scooping them up.>\n\nHm, I don't have much use for this anymore, but wash it off and I'm sure you could make use of it.",
+   "description": "On my weekly visit to Ironbeard's Tomb I was attacked by dreadful, dripping oozes! Naturally, I panicked.\n\nI threw my bag at one, but it didn't do anything! The ooze just sucked it right up... Luckily, it did give me enough time to get away.\n\nThe bad news is that I really need to get the contents of my bag!\n\nI don't know which ooze I threw my bag at; they all looked the same! Ironbeard's Tomb is northeast of here, near Dun Modr. Thank you so much!",
+   "first": 1792010954,
+   "frequency": 0,
+   "last": 1792018398,
+   "level": 24,
+   "objectiveText": "One of the oozes at Ironbeard's Tomb has Sida's bag, retrieve it and bring it back to her in Menethil Harbor.",
+   "objectives": [
+    {
+     "required": 1,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:2111@1437": {
+     "count": 1,
+     "id": 2111,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Sida",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.1178,
+     "xMax": 0.1178,
+     "xMin": 0.1178,
+     "xyCount": 1,
+     "y": 0.5805,
+     "yMax": 0.5805,
+     "yMin": 0.5805,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1437:45:26": 44
+    },
+    "turnin": {
+     "1415:48:48": 1,
+     "1437:12:58": 63
+    }
+   },
+   "progress": {
+    "1": {
+     "1437:45:24": 1
+    }
+   },
+   "progressText": "Did you find my bag?",
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 3500,
+     "max": 3500,
+     "min": 3500
+    },
+    "moneyOffered": 3500,
+    "xp": {
+     "27": {
+      "count": 1,
+      "last": 2400,
+      "max": 2400,
+      "min": 2400
+     }
+    },
+    "xpObserved": {
+     "27": {
+      "count": 1,
+      "last": 2400,
+      "max": 2400,
+      "min": 2400
+     }
+    },
+    "xpOffered": {
+     "26": 2400,
+     "27": 2400
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "Digging Through the Ooze",
+   "turnins": {
+    "npc:2111@1437": {
+     "count": 1,
+     "id": 2111,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Sida",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.1175,
+     "xMax": 0.1175,
+     "xMin": 0.1175,
+     "xyCount": 1,
+     "y": 0.581,
+     "yMax": 0.581,
+     "yMin": 0.581,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "471": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "chain": {
+    "prev": {
+     "484": true
+    }
+   },
+   "description": "I sent my apprentice out into the marshes to skin some of our famous giant Wetlands crocolisks. When he didn't return, I went out to look for him... Let's just say it wasn't a pretty sight.\n\nMidwife says he might pull through, but in the meantime I still need my skins!\n\n...If you'd like to kill a few more of the brutes, I wouldn't be opposed, after what they did. You'll find the crocs north up the coast, beyond the murloc hovels.",
+   "first": 1792174283,
+   "frequency": 0,
+   "last": 1792174283,
+   "level": 26,
+   "objectiveText": "Collect 6 Giant Crocolisk Skins and bring them to James Halloran in Menethil Harbor.",
+   "objectives": [
+    {
+     "required": 6,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:2094@1437": {
+     "count": 1,
+     "id": 2094,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "James Halloran",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.0856,
+     "xMax": 0.0856,
+     "xMin": 0.0856,
+     "xyCount": 1,
+     "y": 0.5578,
+     "yMax": 0.5578,
+     "yMin": 0.5578,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:49:44": 8,
+     "1415:49:48": 12,
+     "1437:18:60": 114,
+     "1437:21:24": 18
+    }
+   },
+   "rewards": {
+    "choices": {
+     "2545": {
+      "count": 1,
+      "name": "Malleable Chain Leggings"
+     },
+     "3561": {
+      "count": 1,
+      "name": "Resilient Poncho"
+     }
+    },
+    "xpOffered": {
+     "27": 2100
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "Apprentice's Duties"
+  },
+  "472": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "304": true
+    }
+   },
+   "completionText": "What brave paladin sends word from Menethil?  Ah <name>, they call you.\n\nYou bring hope to a hopeless situation.  'Tis good news indeed that young Harlo survived.  While fleeing he received a grievous wound.  We had but little time to send him on his way on the back of the only surviving steed with the regiment.\n\nBut now we face a perilous situation.  Dun Modr has fallen and we are but a shadow of the great regiment we once were.",
+   "description": "Dun Modr has fallen to the Dark Iron Dwarves!\n\nMy wounds are grave, paladin.  Most of the regiment was killed!  The Dark Iron thugs attacked us before we could regroup from the Thandol Span ambush.\n\nOur leader, Longbraid, sounded the retreat horn.  As we left the town I was hit by a stray axe in the back.  All went black.\n\nI awoke here in Menethil but I fear for my fellow soldiers.  Hope still burns within me.  Perhaps Longbraid is still alive!  See if you can find him near Dun Modr, human!",
+   "first": 1792010702,
+   "frequency": 0,
+   "last": 1792012465,
+   "level": 30,
+   "objectiveText": "Search for Longbraid near the town of Dun Modr.",
+   "pickups": {
+    "npc:2097@1437": {
+     "count": 1,
+     "id": 2097,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Harlo Barnaby",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.1083,
+     "xMax": 0.1083,
+     "xMin": 0.1083,
+     "xyCount": 1,
+     "y": 0.5583,
+     "yMax": 0.5583,
+     "yMin": 0.5583,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1437:50:18": 63
+    }
+   },
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "reputation": {
+     "Alliance": {
+      "count": 1,
+      "last": 13,
+      "max": 13,
+      "min": 13
+     },
+     "Darnassus": {
+      "count": 1,
+      "factionID": 69,
+      "last": 12,
+      "max": 12,
+      "min": 12
+     },
+     "Gnomeregan Exiles": {
+      "count": 1,
+      "factionID": 54,
+      "last": 13,
+      "max": 13,
+      "min": 13
+     },
+     "Ironforge": {
+      "count": 1,
+      "factionID": 47,
+      "last": 50,
+      "max": 50,
+      "min": 50
+     },
+     "Stormwind": {
+      "count": 1,
+      "factionID": 72,
+      "last": 13,
+      "max": 13,
+      "min": 13
+     }
+    },
+    "xp": {
+     "26": {
+      "count": 1,
+      "last": 1200,
+      "max": 1200,
+      "min": 1200
+     }
+    },
+    "xpObserved": {
+     "26": {
+      "count": 1,
+      "last": 1200,
+      "max": 1200,
+      "min": 1200
+     }
+    },
+    "xpOffered": {
+     "26": 1200
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "Fall of Dun Modr",
+   "turnins": {
+    "npc:1071@1437": {
+     "count": 1,
+     "id": 1071,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Longbraid the Grim",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Dun Modr",
+     "x": 0.4984,
+     "xMax": 0.4984,
+     "xMin": 0.4984,
+     "xyCount": 1,
+     "y": 0.1833,
+     "yMax": 0.1833,
+     "yMin": 0.1833,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "484": {
+   "builds": {
+    "1.60.1.70374": true,
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "471": true,
+     "98815": true
+    }
+   },
+   "completionText": "Nice work you've done here, <name>. The quality of these skins is superb. I'll have to get them into the curing process as soon as possible. Oh, but before I get to that, there's some other work I need done that I think you might be able to take care of.",
+   "description": "I'm James Halloran, the tanner. My cured crocolisk skins are sought after all over, shipments leaving by boat to ports around the world.\n\nMet Einar? He's one of the hunters that brings crocolisk skins in for me.\n\nI'm a bit short on the softer skins that come off crocolisk young.\n\nBeing that I'm running low, I'll pay you top coin for a stack of the skins. You can find the young crocs in the waters right outside of town.",
+   "first": 1792010774,
+   "frequency": 0,
+   "last": 1792174283,
+   "level": 22,
+   "objectiveText": "Obtain 6 Young Crocolisk Skins for James Halloran in Menethil Harbor.",
+   "objectives": [
+    {
+     "required": 6,
+     "text": "Young Crocolisk Skin",
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:2094@1437": {
+     "count": 1,
+     "id": 2094,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "James Halloran",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.0856,
+     "xMax": 0.0856,
+     "xMin": 0.0856,
+     "xyCount": 1,
+     "y": 0.5572,
+     "yMax": 0.5572,
+     "yMin": 0.5572,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:47:49": 13,
+     "1415:50:45": 1,
+     "1437:17:52": 6,
+     "1437:31:36": 62,
+     "1437:5:50": 15,
+     "1437:7:64": 126,
+     "1437:9:47": 46
+    },
+    "turnin": {
+     "1415:48:48": 1,
+     "1437:9:56": 14
+    }
+   },
+   "progress": {
+    "1": {
+     "1437:17:45": 1,
+     "1437:33:39": 1,
+     "1437:6:51": 1,
+     "1437:6:52": 1,
+     "1437:7:49": 1,
+     "1437:7:51": 1
+    }
+   },
+   "progressText": "<name>, right? Do you have my skins?",
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 1400,
+     "max": 1400,
+     "min": 1400
+    },
+    "moneyOffered": 1400,
+    "reputation": {
+     "Alliance": {
+      "count": 1,
+      "last": 25,
+      "max": 25,
+      "min": 25
+     },
+     "Darnassus": {
+      "count": 1,
+      "factionID": 69,
+      "last": 25,
+      "max": 25,
+      "min": 25
+     },
+     "Gnomeregan Exiles": {
+      "count": 1,
+      "factionID": 54,
+      "last": 25,
+      "max": 25,
+      "min": 25
+     },
+     "Ironforge": {
+      "count": 1,
+      "factionID": 47,
+      "last": 25,
+      "max": 25,
+      "min": 25
+     },
+     "Stormwind": {
+      "count": 1,
+      "factionID": 72,
+      "last": 100,
+      "max": 100,
+      "min": 100
+     }
+    },
+    "xp": {
+     "27": {
+      "count": 1,
+      "last": 1750,
+      "max": 1750,
+      "min": 1750
+     }
+    },
+    "xpObserved": {
+     "27": {
+      "count": 1,
+      "last": 1750,
+      "max": 1750,
+      "min": 1750
+     }
+    },
+    "xpOffered": {
+     "26": 1750,
+     "27": 1750
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "Young Crocolisk Skins",
+   "turnins": {
+    "npc:2094@1437": {
+     "count": 1,
+     "id": 2094,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "James Halloran",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.0856,
+     "xMax": 0.0856,
+     "xMin": 0.0856,
+     "xyCount": 1,
+     "y": 0.5578,
+     "yMax": 0.5578,
+     "yMin": 0.5578,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "5261": {
+   "builds": {
+    "1.60.1.70338": true,
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:ROGUE:Alliance": 3,
     "Human:WARLOCK:Alliance": 3
    },
    "chain": {
@@ -1722,18 +4553,18 @@
    "description": "Eagan Peltskinner is looking for someone to hunt wolves for him.  That's good news, because we're seeing a lot more wolves in Northshire Valley lately.\n\nIf you're interested then speak with Eagan.  He's around the side of the abbey, to the left.",
    "first": 1791919786,
    "frequency": 0,
-   "last": 1791919801,
+   "last": 1792009074,
    "level": 2,
    "objectiveText": "Speak with Eagan Peltskinner.",
    "pickups": {
     "npc:823@1429": {
-     "count": 1,
+     "count": 2,
      "id": 823,
      "kind": "npc",
      "mapID": 1429,
      "name": "Deputy Willem",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 1,
       "max": 1,
       "min": 1
@@ -1741,11 +4572,11 @@
      "subzone": "Northshire Valley",
      "x": 0.4817,
      "xMax": 0.4817,
-     "xMin": 0.4817,
-     "xyCount": 1,
-     "y": 0.4288,
+     "xMin": 0.4816,
+     "xyCount": 2,
+     "y": 0.4286,
      "yMax": 0.4288,
-     "yMin": 0.4288,
+     "yMin": 0.4284,
      "zone": "Elwynn Forest"
     }
    },
@@ -1756,14 +4587,14 @@
    },
    "rewards": {
     "money": {
-     "count": 1,
+     "count": 2,
      "last": 0,
      "max": 0,
      "min": 0
     },
     "reputation": {
      "Stormwind": {
-      "count": 1,
+      "count": 2,
       "factionID": 72,
       "last": 50,
       "max": 50,
@@ -1772,7 +4603,7 @@
     },
     "xp": {
      "1": {
-      "count": 1,
+      "count": 2,
       "last": 85,
       "max": 85,
       "min": 85
@@ -1780,7 +4611,7 @@
     },
     "xpObserved": {
      "1": {
-      "count": 1,
+      "count": 2,
       "last": 85,
       "max": 85,
       "min": 85
@@ -1791,35 +4622,103 @@
     }
    },
    "seen": {
-    "accepted": 1,
-    "offered": 1,
-    "turnedIn": 1
+    "accepted": 2,
+    "offered": 2,
+    "turnedIn": 2
    },
    "title": "Eagan Peltskinner",
    "turnins": {
     "npc:196@1429": {
-     "count": 1,
+     "count": 2,
      "id": 196,
      "kind": "npc",
      "mapID": 1429,
      "name": "Eagan Peltskinner",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 1,
       "max": 1,
       "min": 1
      },
      "subzone": "Northshire Valley",
-     "x": 0.4887,
-     "xMax": 0.4887,
+     "x": 0.4889,
+     "xMax": 0.4892,
      "xMin": 0.4887,
-     "xyCount": 1,
+     "xyCount": 2,
      "y": 0.4016,
      "yMax": 0.4016,
-     "yMin": 0.4016,
+     "yMin": 0.4015,
      "zone": "Elwynn Forest"
     }
    }
+  },
+  "536": {
+   "builds": {
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "Transferred from the Stormwind city guard to Southshore, a town that should be abandoned by the looks of it... Smell of the harbor day and night.\n\nNot to mention ol' Redpath... Wants me to take care of the murlocs. Ha! \n\nI can barely rouse myself to go out to some of the pockets of the overgrown fish down the Western Strand. If you would go in my place and take care of them, I'd appreciate it.",
+   "first": 1792295805,
+   "frequency": 0,
+   "last": 1792295812,
+   "level": 30,
+   "objectiveText": "Kill 10 Torn Fin Tidehunters and 10 Torn Fin Oracles for Lieutenant Farren Orinelle in Southshore.",
+   "objectives": [
+    {
+     "required": 10,
+     "text": "Torn Fin Tidehunter slain",
+     "type": "monster"
+    },
+    {
+     "required": 10,
+     "text": "Torn Fin Oracle slain",
+     "type": "monster"
+    }
+   ],
+   "pickups": {
+    "npc:2228@1424": {
+     "count": 1,
+     "id": 2228,
+     "kind": "npc",
+     "mapID": 1424,
+     "name": "Lieutenant Farren Orinelle",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Southshore",
+     "x": 0.5142,
+     "xMax": 0.5142,
+     "xMin": 0.5142,
+     "xyCount": 1,
+     "y": 0.5846,
+     "yMax": 0.5846,
+     "yMin": 0.5846,
+     "zone": "Hillsbrad Foothills"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:46:36": 1,
+     "1424:43:68": 8
+    }
+   },
+   "rewards": {
+    "moneyOffered": 2100,
+    "xpOffered": {
+     "28": 1850
+    }
+   },
+   "seen": {
+    "abandoned": 1,
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "Down the Coast"
   },
   "54": {
    "builds": {
@@ -1942,6 +4841,28 @@
      "zone": "Elwynn Forest"
     }
    }
+  },
+  "555": {
+   "builds": {
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 1
+   },
+   "description": "If there's one thing you'll learn about Southshore it's that we have some of the best cuisine north of Stormwind!\n\nTake my secret recipe for Turtle Bisque, for example. I've known folks to travel from as far as Darkshire just to enjoy a bowl.  Speaking of which, I haven't been able to make any lately.  I used to head up past Dalaran to Lake Lordamere myself to hunt Snapjaws but it's just too dangerous now. If you bring me some Turtle Meat from the Snapjaws up north and Soothing Spices, I'll whip some up!",
+   "first": 1792295825,
+   "last": 1792295825,
+   "objectiveText": "Bring 10 pieces of Turtle Meat and some Soothing Spices to Chef Jessen in Southshore.",
+   "rewards": {
+    "moneyOffered": 3000,
+    "xpOffered": {
+     "28": 2500
+    }
+   },
+   "seen": {
+    "offered": 1
+   },
+   "title": "Soothing Turtle Bisque"
   },
   "6": {
    "builds": {
@@ -2152,16 +5073,77 @@
    },
    "title": "The Fargodeep Mine"
   },
-  "7": {
+  "631": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70374": true
    },
    "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "A tremendous explosion roared through the hills. 'Twas horrible, I tell you!\n\nGood soldiers died defending the Thandol Span. Longbraid says we'll take revenge on the Dark Irons before all is said and done.\n\nWe're in a world of hurt though and I don't see any reinforcements in sight. Longbraid sent Ol' Rustlocke to scout the eastern bridge to see if we could secure it.\n\nThat was days ago. We haven't the manpower to search for him with Dun Modr under siege.\n\nPerhaps you can find him...",
+   "first": 1792012469,
+   "frequency": 0,
+   "last": 1792012469,
+   "level": 31,
+   "objectiveText": "Rhag Garmason wants you to locate Ol' Rustlocke.",
+   "pickups": {
+    "npc:1075@1437": {
+     "count": 1,
+     "id": 1075,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Rhag Garmason",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Dun Modr",
+     "x": 0.4989,
+     "xMax": 0.4989,
+     "xMin": 0.4989,
+     "xyCount": 1,
+     "y": 0.1829,
+     "yMax": 0.1829,
+     "yMin": 0.1829,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1415:53:42": 35,
+     "1417:46:93": 4,
+     "1437:51:8": 344
+    }
+   },
+   "rewards": {
+    "xpOffered": {
+     "26": 2500
+    }
+   },
+   "seen": {
+    "abandoned": 1,
+    "accepted": 1,
+    "offered": 1
+   },
+   "tag": "Elite",
+   "tagID": 1,
+   "title": "The Thandol Span"
+  },
+  "7": {
+   "builds": {
+    "1.60.1.70338": true,
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:ROGUE:Alliance": 3,
     "Human:WARLOCK:Alliance": 3
    },
    "chain": {
     "next": {
      "15": true,
+     "3102": true,
      "3105": true
     },
     "prev": {
@@ -2172,7 +5154,7 @@
    "description": "Your first task is one of cleansing, <name>.  A clan of kobolds have infested the woods to the north.  Go there and fight the kobold vermin you find.  Reduce their numbers so that we may one day drive them from Northshire.",
    "first": 1791919752,
    "frequency": 0,
-   "last": 1791920437,
+   "last": 1792017404,
    "level": 2,
    "objectiveText": "Kill 10 Kobold Vermin, then return to Marshal McBride.",
    "objectives": [
@@ -2184,48 +5166,51 @@
    ],
    "pickups": {
     "npc:197@1429": {
-     "count": 1,
+     "count": 2,
      "id": 197,
      "kind": "npc",
      "mapID": 1429,
      "name": "Marshal McBride",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 1,
       "max": 1,
       "min": 1
      },
      "subzone": "Northshire Valley",
-     "x": 0.4887,
+     "x": 0.4886,
      "xMax": 0.4887,
-     "xMin": 0.4887,
-     "xyCount": 1,
+     "xMin": 0.4884,
+     "xyCount": 2,
      "y": 0.4165,
-     "yMax": 0.4165,
+     "yMax": 0.4166,
      "yMin": 0.4165,
      "zone": "Elwynn Forest"
     }
    },
    "poi": {
     "objective": {
-     "1429:50:36": 30
+     "1415:46:69": 1,
+     "1429:50:36": 65
     },
     "turnin": {
-     "1429:49:42": 2
+     "1429:49:42": 8
     }
    },
    "progress": {
     "1": {
-     "1429:47:36": 5,
-     "1429:48:36": 1,
-     "1429:48:37": 1,
+     "1429:47:36": 8,
+     "1429:48:36": 4,
+     "1429:48:37": 3,
      "1429:49:37": 2,
+     "1429:50:35": 1,
+     "1429:50:36": 1,
      "1429:50:38": 1
     }
    },
    "rewards": {
     "money": {
-     "count": 1,
+     "count": 2,
      "last": 25,
      "max": 25,
      "min": 25
@@ -2233,7 +5218,7 @@
     "moneyOffered": 25,
     "reputation": {
      "Stormwind": {
-      "count": 1,
+      "count": 2,
       "factionID": 72,
       "last": 100,
       "max": 100,
@@ -2242,7 +5227,7 @@
     },
     "xp": {
      "3": {
-      "count": 1,
+      "count": 2,
       "last": 170,
       "max": 170,
       "min": 170
@@ -2250,7 +5235,7 @@
     },
     "xpObserved": {
      "3": {
-      "count": 1,
+      "count": 2,
       "last": 170,
       "max": 170,
       "min": 170
@@ -2262,20 +5247,20 @@
     }
    },
    "seen": {
-    "accepted": 1,
-    "offered": 1,
-    "turnedIn": 1
+    "accepted": 2,
+    "offered": 2,
+    "turnedIn": 2
    },
    "title": "Kobold Camp Cleanup",
    "turnins": {
     "npc:197@1429": {
-     "count": 1,
+     "count": 2,
      "id": 197,
      "kind": "npc",
      "mapID": 1429,
      "name": "Marshal McBride",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 3,
       "max": 3,
       "min": 3
@@ -2284,9 +5269,9 @@
      "x": 0.4884,
      "xMax": 0.4884,
      "xMin": 0.4884,
-     "xyCount": 1,
-     "y": 0.4166,
-     "yMax": 0.4166,
+     "xyCount": 2,
+     "y": 0.4167,
+     "yMax": 0.4168,
      "yMin": 0.4166,
      "zone": "Elwynn Forest"
     }
@@ -2294,9 +5279,11 @@
   },
   "783": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70338": true,
+    "1.60.1.70374": true
    },
    "by": {
+    "Human:ROGUE:Alliance": 3,
     "Human:WARLOCK:Alliance": 3
    },
    "chain": {
@@ -2308,30 +5295,30 @@
    "description": "I hope you strapped your belt on tight, young warlock, because there is work to do here in Northshire.\n\nAnd I don't mean farming.\n\nThe Stormwind guards are hard pressed to keep the peace here, with so many of us in distant lands and so many threats pressing close.  And so we're enlisting the aid of anyone willing to defend their home.  And their alliance.\n\nIf you're here to answer the call, then speak with my superior, Marshal McBride.  He's inside the abbey behind me.",
    "first": 1791919739,
    "frequency": 0,
-   "last": 1791919751,
+   "last": 1792009051,
    "level": 1,
    "objectiveText": "Speak with Marshal McBride.",
    "pickups": {
     "npc:823@1429": {
-     "count": 1,
+     "count": 2,
      "id": 823,
      "kind": "npc",
      "mapID": 1429,
      "name": "Deputy Willem",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 1,
       "max": 1,
       "min": 1
      },
      "subzone": "Northshire Valley",
-     "x": 0.4814,
+     "x": 0.4813,
      "xMax": 0.4814,
-     "xMin": 0.4814,
-     "xyCount": 1,
-     "y": 0.4303,
+     "xMin": 0.4812,
+     "xyCount": 2,
+     "y": 0.4301,
      "yMax": 0.4303,
-     "yMin": 0.4303,
+     "yMin": 0.4298,
      "zone": "Elwynn Forest"
     }
    },
@@ -2342,14 +5329,14 @@
    },
    "rewards": {
     "money": {
-     "count": 1,
+     "count": 2,
      "last": 0,
      "max": 0,
      "min": 0
     },
     "reputation": {
      "Stormwind": {
-      "count": 1,
+      "count": 2,
       "factionID": 72,
       "last": 50,
       "max": 50,
@@ -2358,7 +5345,7 @@
     },
     "xp": {
      "1": {
-      "count": 1,
+      "count": 2,
       "last": 40,
       "max": 40,
       "min": 40
@@ -2366,7 +5353,7 @@
     },
     "xpObserved": {
      "1": {
-      "count": 1,
+      "count": 2,
       "last": 40,
       "max": 40,
       "min": 40
@@ -2377,45 +5364,181 @@
     }
    },
    "seen": {
-    "accepted": 1,
-    "offered": 1,
-    "turnedIn": 1
+    "accepted": 2,
+    "offered": 2,
+    "turnedIn": 2
    },
    "title": "A Threat Within",
    "turnins": {
     "npc:197@1429": {
-     "count": 1,
+     "count": 2,
      "id": 197,
      "kind": "npc",
      "mapID": 1429,
      "name": "Marshal McBride",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 1,
       "max": 1,
       "min": 1
      },
      "subzone": "Northshire Valley",
-     "x": 0.4887,
+     "x": 0.4886,
      "xMax": 0.4887,
-     "xMin": 0.4887,
-     "xyCount": 1,
+     "xMin": 0.4884,
+     "xyCount": 2,
      "y": 0.4165,
-     "yMax": 0.4165,
+     "yMax": 0.4166,
      "yMin": 0.4165,
+     "zone": "Elwynn Forest"
+    }
+   }
+  },
+  "88756": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "The Dark Irons have a few camps east of here on Direforge Hill, and they've stolen a bunch of explosives from our construction site and hauled 'em back to their tents.\n\nI don't need tae tell ya what kinda mischief Dark Irons can get up tae with a barrel o' powder!\n\nI know the Dark Irons are dangerous, but we need those barrels back. You can tell 'em from other barrels because of the red markings on 'em. We cannae let the Dark Irons keep 'em!",
+   "first": 1792013777,
+   "frequency": 0,
+   "last": 1792013777,
+   "level": 31,
+   "objectiveText": "Retrieve 3 Stolen Explosives from the Dark Iron Dwarf camps.",
+   "objectives": [
+    {
+     "required": 3,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:1073@1437": {
+     "count": 1,
+     "id": 1073,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Ashlan Stonesmirk",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Dun Modr",
+     "x": 0.4999,
+     "xMax": 0.4999,
+     "xMin": 0.4999,
+     "xyCount": 1,
+     "y": 0.1827,
+     "yMax": 0.1827,
+     "yMin": 0.1827,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:54:44": 35,
+     "1437:61:26": 296
+    }
+   },
+   "rewards": {
+    "moneyOffered": 3000,
+    "xpOffered": {
+     "27": 2550
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "tag": "Elite",
+   "tagID": 1,
+   "title": "Bring Back a Bang"
+  },
+  "91736": {
+   "builds": {
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 6
+   },
+   "completionText": "The machine dispenses a clear liquid into a bottle...",
+   "first": 1792432508,
+   "last": 1792432799,
+   "progressText": "A strong scent of apples burns your nose as you inspect the device.",
+   "rewards": {
+    "items": {
+     "247824": {
+      "count": 1,
+      "name": "Thunder Applejack"
+     }
+    },
+    "money": {
+     "count": 6,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "xp": {
+     "28": {
+      "count": 6,
+      "last": 0,
+      "max": 0,
+      "min": 0
+     }
+    },
+    "xpObserved": {
+     "28": {
+      "count": 6,
+      "last": 0,
+      "max": 0,
+      "min": 0
+     }
+    }
+   },
+   "seen": {
+    "turnedIn": 6
+   },
+   "title": "Applejack Still",
+   "turnins": {
+    "object:562131@1429": {
+     "count": 6,
+     "id": 562131,
+     "kind": "object",
+     "mapID": 1429,
+     "name": "Applejack Still",
+     "playerLevel": {
+      "count": 6,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Thunder Falls",
+     "x": 0.245,
+     "xMax": 0.2451,
+     "xMin": 0.2447,
+     "xyCount": 6,
+     "y": 0.5814,
+     "yMax": 0.5827,
+     "yMin": 0.5811,
      "zone": "Elwynn Forest"
     }
    }
   },
   "91741": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70338": true,
+    "1.60.1.70374": true
    },
    "by": {
+    "Human:ROGUE:Alliance": 3,
     "Human:WARLOCK:Alliance": 3
    },
    "chain": {
     "next": {
+     "91743": true,
      "92124": true
     }
    },
@@ -2423,7 +5546,7 @@
    "description": "<One of the kobolds dropped this book. It looks like the kobold might have tried to eat it.\n\nBrother Paxton inside the abbey has a small library he maintains. The book must have come from there.>",
    "first": 1791920176,
    "frequency": 0,
-   "last": 1791920512,
+   "last": 1792017416,
    "level": 2,
    "objectiveText": "Return the book to Brother Paxton.",
    "objectives": [
@@ -2435,35 +5558,36 @@
    ],
    "pickups": {
     "auto:?@1429": {
-     "count": 1,
+     "count": 2,
      "kind": "auto",
      "mapID": 1429,
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 2,
       "max": 2,
       "min": 2
      },
      "subzone": "Northshire Valley",
-     "x": 0.4934,
+     "x": 0.4871,
      "xMax": 0.4934,
-     "xMin": 0.4934,
-     "xyCount": 1,
-     "y": 0.3699,
+     "xMin": 0.4808,
+     "xyCount": 2,
+     "y": 0.369,
      "yMax": 0.3699,
-     "yMin": 0.3699,
+     "yMin": 0.3682,
      "zone": "Elwynn Forest"
     }
    },
    "poi": {
     "turnin": {
-     "1429:50:40": 17
+     "1415:46:70": 1,
+     "1429:50:40": 48
     }
    },
    "progressText": "What's that you got there? It looks like one of my books.",
    "rewards": {
     "money": {
-     "count": 1,
+     "count": 2,
      "last": 17,
      "max": 17,
      "min": 17
@@ -2471,7 +5595,7 @@
     "moneyOffered": 17,
     "xp": {
      "3": {
-      "count": 1,
+      "count": 2,
       "last": 85,
       "max": 85,
       "min": 85
@@ -2479,7 +5603,7 @@
     },
     "xpObserved": {
      "3": {
-      "count": 1,
+      "count": 2,
       "last": 85,
       "max": 85,
       "min": 85
@@ -2491,20 +5615,20 @@
     }
    },
    "seen": {
-    "accepted": 1,
-    "offered": 1,
-    "turnedIn": 1
+    "accepted": 2,
+    "offered": 2,
+    "turnedIn": 2
    },
    "title": "Nibbled-On Book",
    "turnins": {
     "npc:951@1429": {
-     "count": 1,
+     "count": 2,
      "id": 951,
      "kind": "npc",
      "mapID": 1429,
      "name": "Brother Paxton",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 3,
       "max": 3,
       "min": 3
@@ -2513,9 +5637,9 @@
      "x": 0.4957,
      "xMax": 0.4957,
      "xMin": 0.4957,
-     "xyCount": 1,
-     "y": 0.4038,
-     "yMax": 0.4038,
+     "xyCount": 2,
+     "y": 0.404,
+     "yMax": 0.4041,
      "yMin": 0.4038,
      "zone": "Elwynn Forest"
     }
@@ -2523,21 +5647,26 @@
   },
   "91743": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70338": true,
+    "1.60.1.70374": true
    },
    "by": {
+    "Human:ROGUE:Alliance": 2,
     "Human:WARLOCK:Alliance": 3
    },
    "chain": {
     "next": {
      "91745": true
+    },
+    "prev": {
+     "91741": true
     }
    },
    "completionText": "Thank you so much! Here! Take one of these how-to books. I don't need them.\n\nBut there are still so many books missing. The kobolds don't seem to be eating them. So, why do they want them?",
    "description": "Those awful kobolds are eating my books! You have to get them back before they devour my whole library.",
    "first": 1791920560,
    "frequency": 0,
-   "last": 1791921681,
+   "last": 1792017425,
    "level": 2,
    "objectiveText": "Retrieve 8 Stolen Books from kobolds in Northshire Valley and return them to Brother Paxton.",
    "objectives": [
@@ -2548,31 +5677,31 @@
    ],
    "pickups": {
     "npc:951@1429": {
-     "count": 1,
+     "count": 2,
      "id": 951,
      "kind": "npc",
      "mapID": 1429,
      "name": "Brother Paxton",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 3,
       "max": 3,
       "min": 3
      },
      "subzone": "Library Wing",
-     "x": 0.4956,
-     "xMax": 0.4956,
+     "x": 0.4957,
+     "xMax": 0.4958,
      "xMin": 0.4956,
-     "xyCount": 1,
-     "y": 0.4039,
-     "yMax": 0.4039,
+     "xyCount": 2,
+     "y": 0.4042,
+     "yMax": 0.4044,
      "yMin": 0.4039,
      "zone": "Elwynn Forest"
     }
    },
    "poi": {
     "objective": {
-     "1429:49:33": 42
+     "1429:49:33": 45
     },
     "turnin": {
      "1429:50:40": 4
@@ -2641,8 +5770,8 @@
     }
    },
    "seen": {
-    "accepted": 1,
-    "offered": 1,
+    "accepted": 2,
+    "offered": 2,
     "turnedIn": 1
    },
    "title": "Rascally Rodents",
@@ -3247,7 +6376,7 @@
    },
    "poi": {
     "objective": {
-     "1429:42:80": 56
+     "1429:42:80": 59
     }
    },
    "rewards": {
@@ -3266,9 +6395,11 @@
   },
   "92124": {
    "builds": {
-    "1.60.1.70338": true
+    "1.60.1.70338": true,
+    "1.60.1.70374": true
    },
    "by": {
+    "Human:ROGUE:Alliance": 3,
     "Human:WARLOCK:Alliance": 3
    },
    "chain": {
@@ -3280,18 +6411,18 @@
    "description": "We need to take stock of how many books are missing!\n\nGo talk to my useless assistant, Daniel. He can do a quick inventory and let us know how serious the problem is.\n\nHe's obsessed with the various trade professions in Elwynn Forest. The boy keeps focusing on those instead of his important work helping me.\n\nDon't let him prattle on about tradeskills, and find out what's happened to my books!",
    "first": 1791920512,
    "frequency": 0,
-   "last": 1791920518,
+   "last": 1792017421,
    "level": 2,
    "objectiveText": "Speak to Daniel, Brother Paxton's assistant in the library.",
    "pickups": {
     "npc:951@1429": {
-     "count": 1,
+     "count": 2,
      "id": 951,
      "kind": "npc",
      "mapID": 1429,
      "name": "Brother Paxton",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 3,
       "max": 3,
       "min": 3
@@ -3300,21 +6431,21 @@
      "x": 0.4957,
      "xMax": 0.4957,
      "xMin": 0.4957,
-     "xyCount": 1,
-     "y": 0.4038,
-     "yMax": 0.4038,
+     "xyCount": 2,
+     "y": 0.404,
+     "yMax": 0.4041,
      "yMin": 0.4038,
      "zone": "Elwynn Forest"
     }
    },
    "poi": {
     "turnin": {
-     "1429:49:41": 1
+     "1429:49:41": 2
     }
    },
    "rewards": {
     "money": {
-     "count": 1,
+     "count": 2,
      "last": 3,
      "max": 3,
      "min": 3
@@ -3322,7 +6453,7 @@
     "moneyOffered": 3,
     "reputation": {
      "Stormwind": {
-      "count": 1,
+      "count": 2,
       "factionID": 72,
       "last": 10,
       "max": 10,
@@ -3331,7 +6462,7 @@
     },
     "xp": {
      "3": {
-      "count": 1,
+      "count": 2,
       "last": 15,
       "max": 15,
       "min": 15
@@ -3339,7 +6470,7 @@
     },
     "xpObserved": {
      "3": {
-      "count": 1,
+      "count": 2,
       "last": 15,
       "max": 15,
       "min": 15
@@ -3350,31 +6481,31 @@
     }
    },
    "seen": {
-    "accepted": 1,
-    "offered": 1,
-    "turnedIn": 1
+    "accepted": 2,
+    "offered": 2,
+    "turnedIn": 2
    },
    "title": "Book Inventory",
    "turnins": {
     "npc:247229@1429": {
-     "count": 1,
+     "count": 2,
      "id": 247229,
      "kind": "npc",
      "mapID": 1429,
      "name": "Daniel",
      "playerLevel": {
-      "count": 1,
+      "count": 2,
       "last": 3,
       "max": 3,
       "min": 3
      },
      "subzone": "Library Wing",
      "x": 0.495,
-     "xMax": 0.495,
+     "xMax": 0.4951,
      "xMin": 0.495,
-     "xyCount": 1,
-     "y": 0.4056,
-     "yMax": 0.4056,
+     "xyCount": 2,
+     "y": 0.4057,
+     "yMax": 0.4057,
      "yMin": 0.4056,
      "zone": "Elwynn Forest"
     }
@@ -3392,7 +6523,8 @@
    ],
    "poi": {
     "objective": {
-     "1415:45:31": 4
+     "1415:45:31": 40,
+     "1424:24:7": 79
     }
    },
    "tag": "Dungeon",
@@ -3464,8 +6596,10 @@
    },
    "poi": {
     "objective": {
-     "1415:50:47": 4,
-     "1437:27:50": 13
+     "1415:50:47": 39,
+     "1415:51:47": 1,
+     "1437:27:50": 344,
+     "1437:39:52": 86
     }
    },
    "rewards": {
@@ -3508,7 +6642,16 @@
    "title": "Abominable Creatures"
   },
   "95647": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 1
+   },
+   "completionText": "I thought we were done for! Something upset the wildlife around here and our excavation team was overwhelmed. Thank you for helping us with those spiders.",
+   "first": 1792172873,
    "frequency": 0,
+   "last": 1792172873,
    "level": 31,
    "objectives": [
     {
@@ -3517,22 +6660,405 @@
      "type": "monster"
     }
    ],
-   "tag": "Dungeon",
-   "tagID": 81,
-   "title": "Lost in the Thicket Things"
-  },
-  "95772": {
-   "frequency": 0,
-   "level": 31,
-   "poi": {
-    "turnin": {
-     "1415:52:48": 4,
-     "1437:48:57": 16
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "xp": {
+     "27": {
+      "count": 1,
+      "last": 4900,
+      "max": 4900,
+      "min": 4900
+     }
+    },
+    "xpObserved": {
+     "27": {
+      "count": 1,
+      "last": 4900,
+      "max": 4900,
+      "min": 4900
+     }
+    },
+    "xpOffered": {
+     "27": 4900
     }
+   },
+   "seen": {
+    "turnedIn": 1
    },
    "tag": "Dungeon",
    "tagID": 81,
-   "title": "Songblade Search"
+   "title": "Lost in the Thicket Things",
+   "turnins": {
+    "auto:?@?": {
+     "count": 1,
+     "kind": "auto",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Site of the Guardian",
+     "zone": "Excavation Site: Wetlands"
+    }
+   }
+  },
+  "95772": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 1
+   },
+   "completionText": "This dwarf bears a striking resemblance to Dorin Songblade. The gun in his hands has the letters \"DLS\" carved into the stock.",
+   "first": 1792172573,
+   "frequency": 0,
+   "last": 1792172573,
+   "level": 31,
+   "poi": {
+    "turnin": {
+     "1415:52:48": 19,
+     "1437:48:57": 296
+    }
+   },
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "xp": {
+     "27": {
+      "count": 1,
+      "last": 6150,
+      "max": 6150,
+      "min": 6150
+     }
+    },
+    "xpObserved": {
+     "27": {
+      "count": 1,
+      "last": 6150,
+      "max": 6150,
+      "min": 6150
+     }
+    },
+    "xpOffered": {
+     "27": 6150
+    }
+   },
+   "seen": {
+    "turnedIn": 1
+   },
+   "tag": "Dungeon",
+   "tagID": 81,
+   "title": "Songblade Search",
+   "turnins": {
+    "auto:?@?": {
+     "count": 1,
+     "kind": "auto",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Lost Dig Site",
+     "zone": "Excavation Site: Wetlands"
+    }
+   }
+  },
+  "95795": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "<You cover the dwarf's body with his cloak.>\n\nTravel to Lakeshire and personally inform Dorin Songblade what became of his brother within the Excavation Sites.",
+   "first": 1792172573,
+   "frequency": 0,
+   "last": 1792172574,
+   "level": 31,
+   "objectiveText": "Return to Dorin Songblade.",
+   "pickups": {
+    "auto:?@?": {
+     "count": 1,
+     "kind": "auto",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Lost Dig Site",
+     "zone": "Excavation Site: Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1415:52:71": 21
+    }
+   },
+   "rewards": {
+    "choices": {
+     "271768": {
+      "count": 1,
+      "name": "Songblade Stabilizer"
+     },
+     "271769": {
+      "count": 1,
+      "name": "Daewyn's Girdle"
+     }
+    },
+    "xpOffered": {
+     "27": 6150
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "tag": "Dungeon",
+   "tagID": 81,
+   "title": "Fallen in the Fen"
+  },
+  "95809": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "completionText": "Goodness, that sounds terrible!\n\nBy the light, I'm grateful he's one of the survivors.\n\n<She holds the reed-woven heart to her own.>\n\nI'll start cooking a hearty meal for him. Thank you for bringing me this. I'd like you to have something as a token of our appreciation.",
+   "description": "I need a moment to rest before I find my own way out.\n\n<He pulls some reeds from his pack and quickly braids and bends them into a heart.>\n\nTake this, and bring it back to Caitlin. Let her know I'll be home soon! Now that we have a path cleared out thanks to you, I'll gather my bushels and follow your trail.\n\nThank you.",
+   "first": 1792172873,
+   "frequency": 0,
+   "last": 1792174227,
+   "level": 31,
+   "objectiveText": "Return to Caitlin Grassman in Menethil Harbor.",
+   "objectives": [
+    {
+     "required": 1,
+     "text": "Return to Caitlin Grassman in Menethil Harbor.",
+     "type": "log"
+    }
+   ],
+   "pickups": {
+    "auto:?@?": {
+     "count": 1,
+     "kind": "auto",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Site of the Guardian",
+     "zone": "Excavation Site: Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1415:48:48": 1,
+     "1437:12:59": 3
+    }
+   },
+   "progressText": "I'm more than worried about him!",
+   "rewards": {
+    "choices": {
+     "1710": {
+      "count": 4,
+      "name": "Greater Healing Potion"
+     },
+     "3827": {
+      "count": 4,
+      "name": "Mana Potion"
+     }
+    },
+    "items": {
+     "2459": {
+      "count": 1,
+      "name": "Swiftness Potion"
+     },
+     "280766": {
+      "count": 1,
+      "name": "Satchel of Potions"
+     }
+    },
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "xp": {
+     "27": {
+      "count": 1,
+      "last": 6150,
+      "max": 6150,
+      "min": 6150
+     }
+    },
+    "xpObserved": {
+     "27": {
+      "count": 1,
+      "last": 6150,
+      "max": 6150,
+      "min": 6150
+     }
+    },
+    "xpOffered": {
+     "27": 6150
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "tag": "Dungeon",
+   "tagID": 81,
+   "title": "Heartwoven",
+   "turnins": {
+    "npc:1480@1437": {
+     "count": 1,
+     "id": 1480,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Caitlin Grassman",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.1188,
+     "xMax": 0.1188,
+     "xMin": 0.1188,
+     "xyCount": 1,
+     "y": 0.5885,
+     "yMax": 0.5885,
+     "yMin": 0.5885,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "95810": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "299": true,
+     "98824": true
+    }
+   },
+   "completionText": "Ah, ye ventured all the way in and survived to tell the tale?! Let's have a look at what ye carry there. \n\nWell, knowing what ye went through to bring it back to me, I think it warrants a certain reverence for your artifact.",
+   "description": "You pick up a fractured piece of the rock-mech automaton. It has a texture unlike anything you've touched before, a composite material of unknown makeup. This is certainly bound to be more 'device' than 'debris.'\n\nProspector Whelgar himself at his excavation site might have something useful to share about the relic.",
+   "first": 1792172950,
+   "frequency": 0,
+   "last": 1792176431,
+   "level": 31,
+   "objectiveText": "Bring the Titan Relic to Prospector Whelgar in the Wetlands excavation site.",
+   "objectives": [
+    {
+     "required": 1,
+     "text": "Titan Relic",
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "auto:?@?": {
+     "count": 1,
+     "kind": "auto",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Site of the Guardian",
+     "zone": "Excavation Site: Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1415:51:47": 1,
+     "1437:39:52": 41
+    }
+   },
+   "progressText": "Here for the dig?",
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "xp": {
+     "28": {
+      "count": 1,
+      "last": 1250,
+      "max": 1250,
+      "min": 1250
+     }
+    },
+    "xpObserved": {
+     "28": {
+      "count": 1,
+      "last": 1250,
+      "max": 1250,
+      "min": 1250
+     }
+    },
+    "xpOffered": {
+     "27": 1250,
+     "28": 1250
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "tag": "Dungeon",
+   "tagID": 81,
+   "title": "Lost Relic Carry",
+   "turnins": {
+    "npc:1077@1437": {
+     "count": 1,
+     "id": 1077,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Prospector Whelgar",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Whelgar's Excavation Site",
+     "x": 0.388,
+     "xMax": 0.388,
+     "xMin": 0.388,
+     "xyCount": 1,
+     "y": 0.5232,
+     "yMax": 0.5232,
+     "yMin": 0.5232,
+     "zone": "Wetlands"
+    }
+   }
   },
   "95998": {
    "builds": {
@@ -3712,7 +7238,7 @@
    },
    "poi": {
     "objective": {
-     "1429:44:66": 46
+     "1429:44:66": 49
     }
    },
    "rewards": {
@@ -3844,6 +7370,9 @@
      "type": "item"
     }
    ],
+   "seen": {
+    "abandoned": 1
+   },
    "title": "The Tower of Althalaxx"
   },
   "97921": {
@@ -3908,6 +7437,1096 @@
     "offered": 1
    },
    "title": "Camping 101: Herbalism"
+  },
+  "98189": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "98190": true
+    },
+    "prev": {
+     "286": true
+    }
+   },
+   "completionText": "You managed to get it back from those monsters! There aren't too many artifacts of the late king left now.",
+   "description": "My goodness, it's--it's beautiful!\n\nThe Blind Princess was to deliver this to Menethil Harbor before tragedy struck. We were so close!\n\nI believe it was to be signed for by Captain Stoutfist in Menethil Keep just behind us. Why don't you do the honors of finishing the job?",
+   "first": 1792179838,
+   "frequency": 0,
+   "last": 1792179901,
+   "level": 25,
+   "objectiveText": "Bring the Menethil Statuette to Captain Stoutfist in Menethil Keep.",
+   "objectives": [
+    {
+     "required": 1,
+     "text": "Bring the Menethil Statuette to Captain Stoutfist in Menethil Keep.",
+     "type": "log"
+    }
+   ],
+   "pickups": {
+    "npc:1242@1437": {
+     "count": 1,
+     "id": 1242,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Karl Boran",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.0846,
+     "xMax": 0.0846,
+     "xMin": 0.0846,
+     "xyCount": 1,
+     "y": 0.586,
+     "yMax": 0.586,
+     "yMin": 0.586,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1437:10:57": 6
+    }
+   },
+   "progressText": "What's that you've got there? Let me take a look.",
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "xp": {
+     "28": {
+      "count": 1,
+      "last": 200,
+      "max": 200,
+      "min": 200
+     }
+    },
+    "xpObserved": {
+     "28": {
+      "count": 1,
+      "last": 200,
+      "max": 200,
+      "min": 200
+     }
+    },
+    "xpOffered": {
+     "28": 200
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "Return the Statuette",
+   "turnins": {
+    "npc:2104@1437": {
+     "count": 1,
+     "id": 2104,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Captain Stoutfist",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Menethil Keep",
+     "x": 0.099,
+     "xMax": 0.099,
+     "xMin": 0.099,
+     "xyCount": 1,
+     "y": 0.5737,
+     "yMax": 0.5737,
+     "yMin": 0.5737,
+     "zone": "Wetlands"
+    }
+   }
+  },
+  "98190": {
+   "builds": {
+    "1.60.1.70425": true,
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "98191": true
+    },
+    "prev": {
+     "98189": true
+    }
+   },
+   "completionText": "You have my gratitude for recovering this. I am relieved it did not fall into the wrong hands.",
+   "description": "You'll want to take this to Stormwind right away. Proud as I am that this keep and harbor bears King Terenas Menethil II's name, we are a calm harbor in a very nasty storm of enemies. It's just not safe here.\n\nThe Dragonmaw in particular would sacrifice much to loot something like this... and I shudder to think of what they'd do with it.\n\nDon't bother going up the chain of command on this one, lad. Go straight to Highlord Fordragon with this. He'll know where it will be best kept.",
+   "first": 1792179902,
+   "frequency": 0,
+   "last": 1792294796,
+   "level": 25,
+   "objectiveText": "Bring the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep.",
+   "objectives": [
+    {
+     "required": 1,
+     "text": "Bring the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep.",
+     "type": "log"
+    }
+   ],
+   "pickups": {
+    "npc:2104@1437": {
+     "count": 1,
+     "id": 2104,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Captain Stoutfist",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Menethil Keep",
+     "x": 0.099,
+     "xMax": 0.099,
+     "xMin": 0.099,
+     "xyCount": 1,
+     "y": 0.5737,
+     "yMax": 0.5737,
+     "yMin": 0.5737,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1415:45:68": 11,
+     "1453:80:38": 9
+    }
+   },
+   "progressText": "Let us speak, paladin. I can feel you carry something of the Light.",
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "xp": {
+     "28": {
+      "count": 1,
+      "last": 200,
+      "max": 200,
+      "min": 200
+     }
+    },
+    "xpObserved": {
+     "28": {
+      "count": 1,
+      "last": 200,
+      "max": 200,
+      "min": 200
+     }
+    },
+    "xpOffered": {
+     "28": 200
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "A Friend of the Family",
+   "turnins": {
+    "npc:1748@1453": {
+     "count": 1,
+     "id": 1748,
+     "kind": "npc",
+     "mapID": 1453,
+     "name": "Highlord Bolvar Fordragon",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Stormwind Keep",
+     "x": 0.8014,
+     "xMax": 0.8014,
+     "xMin": 0.8014,
+     "xyCount": 1,
+     "y": 0.383,
+     "yMax": 0.383,
+     "yMin": 0.383,
+     "zone": "Stormwind City"
+    }
+   }
+  },
+  "98191": {
+   "builds": {
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "next": {
+     "98219": true
+    },
+    "prev": {
+     "98190": true
+    }
+   },
+   "completionText": "By the Light... it looks just like his boy...\n\n<Lord Grayson Shadowbreaker pauses for a moment.>\n\nThis statuette has indeed been blessed. Its connection to Terenas, its survival of what that monster did to him... this carries great power for those who believe in its strength.\n\nIt is best kept here for now, under guard of the paladin order. We will meditate on it further to learn more of its gifts, and perhaps it may aid us in dark times ahead.\n\nThank you, paladin. Light bless you.",
+   "description": "King Terenas was a good man. A devout man. Beloved by his people, and truly the reason we have this Alliance at all.\n\nThe irony is he was humble--he hated these sorts of memorials, and so precious few exist. And of those, few survived Lordaeron's fall.\n\nIt seems the Light has coalesced in this statuette. It would be best kept in the Cathedral of the Light in Cathedral Square, in the center of the city. Bring it to Lord Grayson Shadowbreaker for safekeeping.",
+   "first": 1792294797,
+   "frequency": 0,
+   "last": 1792294946,
+   "level": 25,
+   "objectiveText": "Bring the Menethil Statuette to Lord Grayson Shadowbreaker in the Cathedral of Light.",
+   "objectives": [
+    {
+     "required": 1,
+     "text": "Bring the Menethil Statuette to Lord Grayson Shadowbreaker in the Cathedral of Light.",
+     "type": "log"
+    }
+   ],
+   "pickups": {
+    "npc:1748@1453": {
+     "count": 1,
+     "id": 1748,
+     "kind": "npc",
+     "mapID": 1453,
+     "name": "Highlord Bolvar Fordragon",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Stormwind Keep",
+     "x": 0.8014,
+     "xMax": 0.8014,
+     "xMin": 0.8014,
+     "xyCount": 1,
+     "y": 0.383,
+     "yMax": 0.383,
+     "yMin": 0.383,
+     "zone": "Stormwind City"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1453:48:50": 5
+    }
+   },
+   "progressText": "Light be with you, paladin. You are clearly not here for small talk--what is it?",
+   "rewards": {
+    "choices": {
+     "281296": {
+      "count": 1,
+      "name": "Knight's Lance"
+     },
+     "281297": {
+      "count": 1,
+      "name": "Royal Dagger"
+     }
+    },
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "xp": {
+     "28": {
+      "count": 1,
+      "last": 200,
+      "max": 200,
+      "min": 200
+     }
+    },
+    "xpObserved": {
+     "28": {
+      "count": 1,
+      "last": 200,
+      "max": 200,
+      "min": 200
+     }
+    },
+    "xpOffered": {
+     "28": 200
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "A Friend of the Family",
+   "turnins": {
+    "npc:928@1453": {
+     "count": 1,
+     "id": 928,
+     "kind": "npc",
+     "mapID": 1453,
+     "name": "Lord Grayson Shadowbreaker",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Cathedral of Light",
+     "x": 0.486,
+     "xMax": 0.486,
+     "xMin": 0.486,
+     "xyCount": 1,
+     "y": 0.4999,
+     "yMax": 0.4999,
+     "yMin": 0.4999,
+     "zone": "Stormwind City"
+    }
+   }
+  },
+  "98197": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "This harbor was first built by the Old Horde as a staging ground for their naval invasion of Hillsbrad. Completely circumvented Lordaeron's defenses!\n\nSo many lives lost...\n\nWhat's worse is that fleet was built with the very resources they stole from Khaz Modan!\n\nPlenty of it remains in the harbor after Admiral Proudmoore routed the brutes and built this place for the Alliance. We'll need it to bolster the town's defenses with the Dragonmaw on the move.",
+   "first": 1792010712,
+   "frequency": 0,
+   "last": 1792010713,
+   "level": 22,
+   "objectiveText": "Recover 6 Khaz Modan Timber and 30 Khaz Modan Iron from Menethil Harbor for Valstag Ironjaw.",
+   "objectives": [
+    {
+     "required": 6,
+     "text": "Khaz Modan Timber",
+     "type": "item"
+    },
+    {
+     "required": 30,
+     "text": "Khaz Modan Iron",
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:2086@1437": {
+     "count": 1,
+     "id": 2086,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Valstag Ironjaw",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Menethil Keep",
+     "x": 0.101,
+     "xMax": 0.101,
+     "xMin": 0.101,
+     "xyCount": 1,
+     "y": 0.5687,
+     "yMax": 0.5687,
+     "yMin": 0.5687,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:47:48": 26,
+     "1415:48:47": 8,
+     "1415:48:48": 1,
+     "1437:10:49": 64,
+     "1437:10:50": 20,
+     "1437:15:56": 109,
+     "1437:5:60": 6,
+     "1437:6:61": 208
+    }
+   },
+   "progress": {
+    "1": {
+     "1437:6:52": 1,
+     "1437:6:53": 1,
+     "1437:7:49": 1,
+     "1437:8:51": 1
+    },
+    "2": {
+     "1437:5:52": 1
+    }
+   },
+   "progressText": "Keep your wits about you beneath the waves. There's plenty of nasties down there!",
+   "rewards": {
+    "moneyOffered": 1400,
+    "xpOffered": {
+     "26": 1750
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "Spoils of War"
+  },
+  "98208": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "I came to Menethil Harbor from Auberdine, from the great tree Teldrassil, to recover a bloom of great import to my people.\n\nMy people's ship the Flying Osprey crashed here many moons ago, joined with the Kul Tiran Third Fleet. Among its cargo was the flower known as Nord'el--Bloom of the Heavens in your tongue--bloomed under a full moon at the peak of Mount Hyjal, our former home.\n\nPlease help me retrieve it! The wreckage is just south of the city, but it is inhabited by fierce murloc raiders!",
+   "first": 1792010786,
+   "frequency": 0,
+   "last": 1792010787,
+   "level": 29,
+   "objectiveText": "Recover Nord'el for Sylessa Duskwhisper in Menethil Harbor.",
+   "objectives": [
+    {
+     "required": 1,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:270844@1437": {
+     "count": 1,
+     "id": 270844,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Sylessa Duskwhisper",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.0795,
+     "xMax": 0.0795,
+     "xMin": 0.0795,
+     "xyCount": 1,
+     "y": 0.5586,
+     "yMax": 0.5586,
+     "yMin": 0.5586,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:48:48": 35,
+     "1437:12:64": 401
+    }
+   },
+   "rewards": {
+    "moneyOffered": 2500,
+    "xpOffered": {
+     "26": 2350
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "Bloom of the Heavens"
+  },
+  "98219": {
+   "builds": {
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "prev": {
+     "98191": true
+    }
+   },
+   "completionText": "Ah, of course. Another one of Stormwind's finest here to check on me. Same as last month!",
+   "description": "Thank you again for delivering the statuette safely, <name>.\n\nI could use your help with something else. There's a member of the city guard who was reassigned to duty in Southshore out in the Hillsbrad Foothills.\n\nHis father was a friend of mine, and while I don't disagree that he could use the lesson... I'd still like to see him succeed. He would really benefit from someone like you helping him out.\n\nThere is a boat that can take you that way from Menethil Harbor, if you are passing back through.",
+   "first": 1792294946,
+   "frequency": 0,
+   "last": 1792295784,
+   "level": 30,
+   "objectiveText": "Speak to Lieutenant Farren Orinelle in Southshore in Hillsbrad Foothills.",
+   "pickups": {
+    "npc:928@1453": {
+     "count": 1,
+     "id": 928,
+     "kind": "npc",
+     "mapID": 1453,
+     "name": "Lord Grayson Shadowbreaker",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Cathedral of Light",
+     "x": 0.486,
+     "xMax": 0.486,
+     "xMin": 0.486,
+     "xyCount": 1,
+     "y": 0.4999,
+     "yMax": 0.4999,
+     "yMin": 0.4999,
+     "zone": "Stormwind City"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1424:51:58": 1
+    }
+   },
+   "rewards": {
+    "money": {
+     "count": 1,
+     "last": 0,
+     "max": 0,
+     "min": 0
+    },
+    "xp": {
+     "28": {
+      "count": 1,
+      "last": 250,
+      "max": 250,
+      "min": 250
+     }
+    },
+    "xpObserved": {
+     "28": {
+      "count": 1,
+      "last": 250,
+      "max": 250,
+      "min": 250
+     }
+    },
+    "xpOffered": {
+     "28": 250
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "title": "The Shamed Lieutenant",
+   "turnins": {
+    "npc:2228@1424": {
+     "count": 1,
+     "id": 2228,
+     "kind": "npc",
+     "mapID": 1424,
+     "name": "Lieutenant Farren Orinelle",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Southshore",
+     "x": 0.5142,
+     "xMax": 0.5142,
+     "xMin": 0.5142,
+     "xyCount": 1,
+     "y": 0.5846,
+     "yMax": 0.5846,
+     "yMin": 0.5846,
+     "zone": "Hillsbrad Foothills"
+    }
+   }
+  },
+  "98221": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "In the Second War the Dragonmaw built a fleet where we now stand, intending to take Hillsbrad. They nearly succeeded!\n\nThey were routed by the red dragons, left to mere stragglers deep in the mountains. However, there has been a surge in activity in their encampment northeast of Menethil.\n\nDun Algaz is proof that they intend to march to war once again and retake this land. Find their attack plans, take note of any critical information, and destroy them. We need to know where they will strike next!",
+   "first": 1792010738,
+   "frequency": 0,
+   "last": 1792010739,
+   "level": 28,
+   "objectiveText": "Captain Stoutfist in Menethil Keep wants you to destroy the 4 sets of Attack Plans in the Angerfang Encampment.",
+   "objectives": [
+    {
+     "required": 1,
+     "text": "Attack Plan: Menethil Harbor destroyed",
+     "type": "object"
+    },
+    {
+     "required": 1,
+     "text": "Attack Plan: Thelsamar destroyed",
+     "type": "object"
+    },
+    {
+     "required": 1,
+     "text": "Attack Plan: Southshore destroyed",
+     "type": "object"
+    },
+    {
+     "required": 1,
+     "text": "Attack Plan: Ironforge destroyed",
+     "type": "object"
+    }
+   ],
+   "pickups": {
+    "npc:2104@1437": {
+     "count": 1,
+     "id": 2104,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Captain Stoutfist",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Menethil Keep",
+     "x": 0.0991,
+     "xMax": 0.0991,
+     "xMin": 0.0991,
+     "xyCount": 1,
+     "y": 0.5736,
+     "yMax": 0.5736,
+     "yMin": 0.5736,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:51:46": 34,
+     "1415:52:46": 1,
+     "1437:38:46": 337,
+     "1437:46:43": 61,
+     "1437:49:47": 7
+    }
+   },
+   "rewards": {
+    "moneyOffered": 2500,
+    "xpOffered": {
+     "26": 2300
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "From the Ashes"
+  },
+  "98245": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "I don't know who I hate more: the bloody Dark Irons, the Dragonmaw, or the drakes they rode.\n\n<Howin spits.>\n\nI aim tae make things right. But we're gonna need some supplies.\n\nThese whelp scales will protect against dragonfire a good bit, but they're a pain in the arse tae weave together.\n\nThe Razormaw raptors up in Raptor Ridge to the northeast and Saltspray Glen to the northwest are so named for their pointy chompers--they oughta break through the scales.\n\nBring me a handful of the incisors.",
+   "first": 1792170857,
+   "frequency": 0,
+   "last": 1792170857,
+   "level": 29,
+   "objectiveText": "Collect 10 Razormaw Incisors for Howin Kindfeather.",
+   "objectives": [
+    {
+     "required": 10,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:270637@1437": {
+     "count": 1,
+     "id": 270637,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Howin Kindfeather",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "x": 0.4939,
+     "xMax": 0.4939,
+     "xMin": 0.4939,
+     "xyCount": 1,
+     "y": 0.4197,
+     "yMax": 0.4197,
+     "yMin": 0.4197,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:51:43": 21,
+     "1437:36:17": 137,
+     "1437:69:34": 6
+    }
+   },
+   "rewards": {
+    "xpOffered": {
+     "27": 2350
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "Razormaw Needling"
+  },
+  "98246": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "I'll need some eggs if my plan is going tae work. Bassbeak needs a nice an' full belly--I ain't in the business of hoppin' on the back of a surly gryphon.\n\nThey need to be perfect--no cracks or anything.\n\nTake some from the Razormaw raptors--they're known for having yolks the size of a gnome's noggin. You can find 'em in Raptor Ridge to the northeast and Saltspray Glen to the northwest.\n\nLet's make it a nice even dozen, just to be safe.",
+   "first": 1792170858,
+   "frequency": 0,
+   "last": 1792170858,
+   "level": 29,
+   "objectiveText": "Gather 12 Perfect Razormaw Eggs for Howin Kindfeather.",
+   "objectives": [
+    {
+     "required": 12,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:270637@1437": {
+     "count": 1,
+     "id": 270637,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Howin Kindfeather",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "x": 0.4939,
+     "xMax": 0.4939,
+     "xMin": 0.4939,
+     "xyCount": 1,
+     "y": 0.4197,
+     "yMax": 0.4197,
+     "yMin": 0.4197,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:51:43": 21,
+     "1437:37:20": 138,
+     "1437:71:37": 4
+    }
+   },
+   "rewards": {
+    "xpOffered": {
+     "27": 2350
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "Trying Times"
+  },
+  "98282": {
+   "builds": {
+    "1.60.1.70374": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "description": "Certain alchemical recipes require ingredients sourced from, well, very dangerous places. And those are often just the base herbs! The other ingredients are even worse!\n\nI need to make more antivenom before I can leave again. I swear everything in this marsh is venomous. It's like it runs through the land itself!\n\nCan you help me? I'll need a venom gland from the spiders in Thelgen Rock to the far southeast. But it has to be unruptured, or too much venom will spill out before you can get here. Sorry!",
+   "first": 1792010950,
+   "frequency": 0,
+   "last": 1792010951,
+   "level": 22,
+   "objectiveText": "Collect an Unruptured Stalker Gland from Thelgen Rock for Caitlin Grassman in Menethil Harbor.",
+   "objectives": [
+    {
+     "required": 1,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:1480@1437": {
+     "count": 1,
+     "id": 1480,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "Caitlin Grassman",
+     "playerLevel": {
+      "count": 1,
+      "last": 26,
+      "max": 26,
+      "min": 26
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.1186,
+     "xMax": 0.1186,
+     "xMin": 0.1186,
+     "xyCount": 1,
+     "y": 0.5874,
+     "yMax": 0.5874,
+     "yMin": 0.5874,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "objective": {
+     "1415:52:48": 35,
+     "1437:50:63": 393
+    }
+   },
+   "rewards": {
+    "xpOffered": {
+     "26": 1750
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "title": "Alchemical Hazards"
+  },
+  "98463": {
+   "builds": {
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 1
+   },
+   "description": "Look, I'm glad to have you at my bar, and that's exactly why I'm telling you this.\n\nThe real party? That's over at the Salty Sailor Tavern in Booty Bay. Yes, in Stranglethorn Vale--that Booty Bay.\n\nDon't give me that look. I know it's run by goblins. Bartenders talk, and bar patrons talk a LOT. All I'm saying is that if you want to see things get real wild, head over there.\n\nNixxrax Fillamug will keep you topped up, don't even worry.",
+   "first": 1792295816,
+   "last": 1792295816,
+   "objectiveText": "Visit Nixxrax Fillamug in the Salty Sailor Tavern in Booty Bay in Stranglethorn.",
+   "rewards": {
+    "xpOffered": {
+     "28": 270
+    }
+   },
+   "seen": {
+    "offered": 1
+   },
+   "title": "Talk of the Town"
+  },
+  "98815": {
+   "builds": {
+    "1.60.1.70425": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 2
+   },
+   "chain": {
+    "prev": {
+     "484": true
+    }
+   },
+   "description": "The Highlands are host to ruins of some sort, secrets now being explored by an expedition team. What I know is that they've got their own wildlife and beasts lurking in that mountain marshland. How about you take a foray in there with some well-equipped friends, and we work a trade?\n\nI don't care if they're hiding, I want their hides! Bring me the skins from four of the Thicket Raptors, I'll have a trade worked out for you to make it worth it.",
+   "first": 1792174283,
+   "frequency": 0,
+   "last": 1792174284,
+   "level": 28,
+   "objectiveText": "Return 4 Thicket Raptor Hides to James Halloran, the tanner, in Menethil Harbor.",
+   "objectives": [
+    {
+     "required": 4,
+     "type": "item"
+    }
+   ],
+   "pickups": {
+    "npc:2094@1437": {
+     "count": 1,
+     "id": 2094,
+     "kind": "npc",
+     "mapID": 1437,
+     "name": "James Halloran",
+     "playerLevel": {
+      "count": 1,
+      "last": 27,
+      "max": 27,
+      "min": 27
+     },
+     "subzone": "Menethil Harbor",
+     "x": 0.0856,
+     "xMax": 0.0856,
+     "xMin": 0.0856,
+     "xyCount": 1,
+     "y": 0.5578,
+     "yMax": 0.5578,
+     "yMin": 0.5578,
+     "zone": "Wetlands"
+    }
+   },
+   "rewards": {
+    "moneyOffered": 1200,
+    "xpOffered": {
+     "27": 1150
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1
+   },
+   "tag": "Dungeon",
+   "tagID": 81,
+   "title": "Highland Hides"
+  },
+  "98824": {
+   "builds": {
+    "1.60.1.70425": true,
+    "1.60.1.70450": true
+   },
+   "by": {
+    "Human:PALADIN:Alliance": 3
+   },
+   "chain": {
+    "prev": {
+     "95810": true
+    }
+   },
+   "completionText": "What's this you've got...\n\nWoah! Look at this marvel! The light through it dances like nothin' I've seen since my first dig in old Uldaman. The marks of the keepers on this cannot be mistaken.\n\nYou've done the League a great service bringin' this home. A find like this pushes the very boundaries o' the world's wisdom forward.\n\nWe'll be sure to record the details of your contribution! Truly a job well done, adventurer.",
+   "description": "With titan-like inscriptions like that on its facets, nothing less than Ironforge's Hall of Explorers is the right place to bring it.\n\nI'd like to think that you'll be noted in the history for it in the catalogue -- \"Recovered by <name>! Authenticated by Prospector Whelgar...\" Ah, I'm gettin' meself carried away.\n\nHigh Explorer Magellas will receive you, and given the exquisite nature of what you carry, will surely be most generously appreciative should you donate it to the museum.\n\nGood find!",
+   "first": 1792176432,
+   "frequency": 0,
+   "last": 1792339567,
+   "level": 31,
+   "objectiveText": "Bring the Titan Relic to High Explorer Magellas in Ironforge's Hall of Explorers.",
+   "objectives": [
+    {
+     "required": 1,
+     "text": "Bring the Titan Relic to High Explorer Magellas in Ironforge's Hall of Explorers.",
+     "type": "log"
+    }
+   ],
+   "pickups": {
+    "auto:?@1437": {
+     "count": 1,
+     "kind": "auto",
+     "mapID": 1437,
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Whelgar's Excavation Site",
+     "x": 0.388,
+     "xMax": 0.388,
+     "xMin": 0.388,
+     "xyCount": 1,
+     "y": 0.5232,
+     "yMax": 0.5232,
+     "yMin": 0.5232,
+     "zone": "Wetlands"
+    }
+   },
+   "poi": {
+    "turnin": {
+     "1415:49:52": 13,
+     "1437:21:91": 95,
+     "1455:70:19": 1
+    }
+   },
+   "progressText": "Have a look at our gallery, but please, don't touch the artifacts, unless it's one you're here to donate to the library.",
+   "rewards": {
+    "choices": {
+     "271716": {
+      "count": 1,
+      "name": "Explorer's League Dustcover"
+     },
+     "271766": {
+      "count": 1,
+      "name": "Heavehammer"
+     },
+     "271767": {
+      "count": 1,
+      "name": "Healer's Staff"
+     }
+    },
+    "money": {
+     "count": 1,
+     "last": 6000,
+     "max": 6000,
+     "min": 6000
+    },
+    "moneyOffered": 6000,
+    "xp": {
+     "28": {
+      "count": 1,
+      "last": 6150,
+      "max": 6150,
+      "min": 6150
+     }
+    },
+    "xpObserved": {
+     "28": {
+      "count": 1,
+      "last": 6150,
+      "max": 6150,
+      "min": 6150
+     }
+    },
+    "xpOffered": {
+     "28": 6150
+    }
+   },
+   "seen": {
+    "accepted": 1,
+    "offered": 1,
+    "turnedIn": 1
+   },
+   "tag": "Dungeon",
+   "tagID": 81,
+   "title": "Prehistoric Prism",
+   "turnins": {
+    "npc:5387@1455": {
+     "count": 1,
+     "id": 5387,
+     "kind": "npc",
+     "mapID": 1455,
+     "name": "High Explorer Magellas",
+     "playerLevel": {
+      "count": 1,
+      "last": 28,
+      "max": 28,
+      "min": 28
+     },
+     "subzone": "Hall of Explorers",
+     "x": 0.6962,
+     "xMax": 0.6962,
+     "xMin": 0.6962,
+     "xyCount": 1,
+     "y": 0.1896,
+     "yMax": 0.1896,
+     "yMin": 0.1896,
+     "zone": "Ironforge"
+    }
+   }
   }
  },
  "schemaVersion": 1,
@@ -3930,6 +8549,16 @@
    "id": "6acebea8965aa55df455f345",
    "levels": 2,
    "quests": 16,
+   "via": "share code"
+  },
+  {
+   "addonVersion": "0.7.1",
+   "build": "1.60.1.70450",
+   "contributor": "Skep",
+   "exportedAt": 1792502388,
+   "id": "6acf10eff83caaa34dbcb93e",
+   "levels": 8,
+   "quests": 75,
    "via": "share code"
   }
  ]
