@@ -6,4 +6,5 @@ local _, AP = ...
 AP.CONTRIBUTORS = {
 	"Genesys Firstborn",
 	"Skep",
+	"Powershot",
 }
