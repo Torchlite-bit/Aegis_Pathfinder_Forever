@@ -13,5 +13,6 @@ Send yours: [docs/data-submission.md](docs/data-submission.md).
 |---|---:|---:|
 | [Genesys Firstborn](https://github.com/Torchlite-bit) | 46 | 7 |
 | [Skep](https://github.com/Torchlite-bit) | 75 | 8 |
+| [Powershot](https://github.com/Tugazito) | 90 | 11 |
 
 <!-- data-contributors:end -->
